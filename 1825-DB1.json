@@ -1,0 +1,50 @@
+{
+  "info": {
+    "title": "1825 DB1",
+    "designer": "Francis Tresham",
+    "background": "background"
+  },
+  "colors": {
+    "background": "#ccaacc"
+  },
+  "tiles": {
+    "38": 1,
+    "205": 3,
+    "206": 3,
+    "887": 4,
+    "888": 4,
+    "DB801": {
+      "quantity": 2,
+      "color": "brown",
+      "rotations": 1,
+      "centerTowns": [{}],
+      "values": [
+        {
+          "value": 20,
+          "angle": 210,
+          "percent": 0.8
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    }
+  }
+}

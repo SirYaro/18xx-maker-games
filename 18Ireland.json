@@ -1,0 +1,2385 @@
+{
+  "info": {
+    "title": "18Ireland",
+    "designer": "Ian Scrivins",
+    "publisher": "aag",
+    "background": "water",
+    "titleY": 0,
+    "titleX": 75,
+    "titleSize": 50,
+    "currency": "£#",
+    "orientation": "horizontal"
+  },
+  "links": {
+    "bgg": "https://boardgamegeek.com/boardgame/196217/18ireland",
+    "rules": "https://docs.google.com/viewer?a=v&pid=sites&srcid=YWxsLWFib2FyZGdhbWVzLmNvbXxhYWdsbGN8Z3g6NWU3M2ExZjkyZDFhZDY4Yg"
+  },
+  "wip": true,
+  "tokens": ["Round", "+£10", "+£10", "+£20", "+£20"],
+  "ipo": true,
+  "bank": 4000,
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 16,
+      "capital": 330
+    },
+    {
+      "number": 4,
+      "certLimit": 12,
+      "capital": 250
+    },
+    {
+      "number": 5,
+      "certLimit": 10,
+      "capital": 200
+    },
+    {
+      "number": 6,
+      "certLimit": 8,
+      "capital": 160
+    }
+  ],
+  "tokenTypes": {
+    "minor": ["Free"],
+    "default": ["Free", 20, 50]
+  },
+  "shareTypes": {
+    "minor": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": 40,
+        "shares": 2
+      },
+      {
+        "quantity": 3,
+        "percent": 20,
+        "shares": 1
+      }
+    ],
+    "default": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+  },
+  "floatPercent": 20,
+  "companies": [
+    {
+        "name": "Central Ireland Railway",
+        "abbrev": "CIR",
+        "color": "green",
+        "token": {
+            "color": "green",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Cork, Blackrock & Passage Railway",
+        "abbrev": "CBPR",
+        "color": "black",
+        "token": {
+            "color": "black",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Dublin & Drogheda Railway",
+        "abbrev": "DDR",
+        "color": "lime",
+        "token": {
+            "color": "lime",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Dundalk & Enniskillen Railway",
+        "abbrev": "DER",
+        "color": "pink",
+        "token": {
+            "color": "pink",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Dublin & Kingstown Railway",
+        "abbrev": "DKR",
+        "color": "purple",
+        "token": {
+            "color": "purple",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Enniskillen, Bundoran & Sligo Railway",
+        "abbrev": "EBSR",
+        "color": "yellow",
+        "token": {
+            "color": "yellow",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Grand Junction Railway",
+        "abbrev": "GJR",
+        "color": "white",
+        "token": {
+            "color": "white",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Great Northern & Western Railway",
+        "abbrev": "GNWR",
+        "color": "navyBlue",
+        "token": {
+            "color": "navyBlue",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Kilkenny Junction Railway",
+        "abbrev": "KJR",
+        "color": "red",
+        "token": {
+            "color": "red",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Londonderry & Enniskillen Railway",
+        "abbrev": "LER",
+        "color": "brown",
+        "token": {
+            "color": "brown",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Sligo, Leitrim & Northern Counties Railway",
+        "abbrev": "SLNCR",
+        "color": "gray",
+        "token": {
+            "color": "gray",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Ulster Railway",
+        "abbrev": "UR",
+        "color": "tan",
+        "token": {
+            "color": "tan",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Waterford & Kilkenny Railway",
+        "abbrev": "WKR",
+        "color": "lightBlue",
+        "token": {
+            "color": "lightBlue",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Waterford & Limerick Railway",
+        "abbrev": "WLR",
+        "color": "orange",
+        "token": {
+            "color": "orange",
+            "bar": "white"
+        },
+        "minor": true
+    },
+    {
+        "name": "Cork, Brandon & South Coast Railway",
+        "color": "gold",
+        "abbrev": "CBSCR"
+    },
+    {
+        "name": "Dublin & South Eastern Railway",
+        "color": "black",
+        "abbrev": "DSER"
+    },
+    {
+        "name": "Great Northern Railway (Ireland)",
+        "color": "blue",
+        "abbrev": "GNR"
+    },
+    {
+        "name": "Great Southern & Western Railway",
+        "abbrev": "GSWR",
+        "color":  "red"
+    },
+    {
+        "name": "Midland Great Western Railway",
+        "abbrev": "MGWR",
+        "color": "green"
+    },
+    {
+        "name": "Midland Railway Northern Counties Committee",
+        "abbrev": "NCC",
+        "color": "pink"
+    },
+    {
+        "name": "Waterford, Limerick & Western Railway",
+        "abbrev": "WLW",
+        "color": "yellow"
+    }
+  ],
+  "trains": [
+    {
+      "name": "2H",
+      "quantity": 7,
+      "price": 80,
+      "color": "yellow",
+      "rust": "6H",
+      "obsolete": "8H"
+    },
+    {
+      "name": "4H",
+      "quantity": 5,
+      "price": 180,
+      "color": "green",
+      "rust": "8H",
+      "obsolete": "10H"
+    },
+    {
+      "name": "6H",
+      "quantity": 4,
+      "price": 300,
+      "color": "green",
+      "rust": "10H",
+      "obsolete": "D"
+    },
+    {
+      "name": "8H",
+      "quantity": 3,
+      "price": 440,
+      "color": "brown"
+    },
+    {
+      "name": "10H",
+      "quantity": 2,
+      "price": 550,
+      "color": "brown"
+    },
+    {
+      "name": "D",
+      "quantity": "∞",
+      "print": 11,
+      "price": 770,
+      "color": "gray"
+    }
+  ],
+  "privates": [
+    {
+        "name": "Dalkey Atmospheric Railway",
+        "price": 20,
+        "revenue": 5,
+        "sym": "DAR",
+        "description": "No Corporation can build in the Wicklow hex until this company is bought by a Corporation or closed."
+    },
+    {
+        "name": "Donegal Railway",
+        "price": 30,
+        "revenue": 7,
+        "sym": "DR",
+        "description": "The owning Corporation can place two connected narrow gauge yellow tiles in the Donegal hex and on adjacent hex. This action closes the company."
+    },
+    {
+        "name": "Board of Works",
+        "price": 40,
+        "revenue": 9,
+        "sym": "BoW",
+        "description": "The owning Corporation can place a yellow tile without payment of terrain costs. The company closes once this ability has been used twice."
+    },
+    {
+        "name": "City of Dublin Steam Packet Company",
+        "price": 45,
+        "revenue": 10,
+        "sym": "CDSPC",
+        "description": "The owning Corporation can place the +£10 token on any port. This action closes the company, but the Corporation adds £10 to the port’s revenue until the end of the game."
+    },
+    {
+        "name": "Tralee & Dingle Railway",
+        "price": 50,
+        "revenue": 10,
+        "description": "The owning Corporation can place two connected narrow gauge yellow tiles in the Tralee and Dingle hexes. This action closes the company.",
+        "sym": "TDR"
+    },
+    {
+        "name": "Drumglass Colliery Railway",
+        "price": 60,
+        "revenue": 12,
+        "description": "No Corporation can build in the DCR hex until this company is bought by any Corporation or closed. The owning Corporation can then place a yellow tile in that hex without using a tile action or paying terrain costs."
+    },
+    {
+        "name": "Trans-Atlantic Steam Packet Station",
+        "price": 75,
+        "revenue": 15,
+        "description": "The owning Corporation can place the +£20 token on Galway. This action closes the company, but the Corporation adds £20 to the city’s revenue until the end of the game."
+    },
+    {
+        "name": "River Shannon Shipping Co",
+        "price": 80,
+        "revenue": 10,
+        "description": "The owning Corporation controls a river link between Dromod and Limerick and adds the value of the other city to one train ending at either Dromod or Limerick."
+    },
+    {
+        "name": "William Dargan Esq.",
+        "price": 90,
+        "revenue": 10,
+        "description": "The owning Corporation can upgrade a second track tile during each OR at a cost of £30 from the Corporation’s Treasury."
+    },
+    {
+        "name": "The Irish Mail",
+        "price": 110,
+        "revenue": 20,
+        "description": "The owning Corporation can place an off-board location tile adjacent to one of: Londonderry, Kingstown, or Waterford. This action closes the company, but any Corporation may run to the tile for the rest of the game."
+    },
+    {
+        "name": "Dublin & Kingstown Railway",
+        "price": 120,
+        "revenue": 0,
+        "description": "The owner of this company: Takes the D&KR directorship; sets the share price at half bid; places a 2H-Train on the charter; places the winning bid in the D&KR treasury less the cost of the train and discards this card."
+    }
+  ],
+  "phases": [
+    {
+      "minor": true,
+      "name": "2H",
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "yellow",
+      "notes": "5-Share Companies can start."
+    },
+    {
+      "minor": true,
+      "name": "4H",
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "green",
+      "on": "4H",
+      "buy_companies": true,
+      "notes": "10-Share Companies can form by merger."
+    },
+    {
+      "minor": true,
+      "name": "6H",
+      "limit": 2,
+      "rounds": 2,
+      "on": "6H",
+      "tiles": "green",
+      "buy_companies": true,
+      "notes": "10-Share Companies can start."
+    },
+    {
+      "minor": true,
+      "name": "8H",
+      "limit": 1,
+      "rounds": 2,
+      "tiles": "brown",
+      "on": "8H",
+      "events": {
+        "close_companies": true
+      },
+      "notes": "Unstarted 5-Share Companies are removed."
+    },
+    {
+      "minor": true,
+      "name": "10H",
+      "limit": 1,
+      "rounds": 2,
+      "on": "10H",
+      "tiles": "brown"
+    },
+    {
+      "minor": true,
+      "name": "D",
+      "limit": 1,
+      "rounds": 2,
+      "on": "D",
+      "tiles": "gray"
+    },
+    {
+      "name": "4H",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "green",
+      "on": "4H",
+      "buy_companies": true,
+      "notes": "10-Share Companies can form by merger."
+    },
+    {
+      "name": "6H",
+      "limit": 3,
+      "rounds": 2,
+      "on": "6H",
+      "tiles": "green",
+      "buy_companies": true,
+      "notes": "10-Share Companies can start."
+    },
+    {
+      "name": "8H",
+      "limit": 2,
+      "rounds": 2,
+      "tiles": "brown",
+      "on": "8H",
+      "events": {
+        "close_companies": true
+      },
+      "notes": "Unstarted 5-Share Companies are removed."
+    },
+    {
+      "name": "10H",
+      "limit": 2,
+      "rounds": 2,
+      "on": "10H",
+      "tiles": "brown"
+    },
+    {
+      "name": "D",
+      "limit": 2,
+      "rounds": 2,
+      "on": "D",
+      "tiles": "gray"
+    }
+  ],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "IPO shares pay dividends to the corporation. Shares in the market do not pay."
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+        "name": "SR",
+        "color": "gray"
+    },
+    {
+        "name": "OR1",
+        "color": "yellow"
+    },
+    {
+        "name": "OR2",
+        "color": "yellow"
+    },
+    {
+        "name": "MR",
+        "color": "gray"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": [
+        "Sell any number of shares",
+        "Buy one share",
+        "Sell any number of shares"
+      ],
+      "ordered": true
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+        "Lay or upgrade track",
+        "Purchase a station",
+        "Run trains",
+        "Pay dividends or withhold revenue",
+        "Purchase trains"
+      ],
+      "ordered": true,
+      "optional": ["Purchase private companies"]
+    }
+  ],
+  "stock": {
+    "type": "2D",
+    "par": {
+      "values": [50, 60, 70, 85, 100]
+    },
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Every share sold"],
+      "left": ["Withheld revenue"],
+      "right": ["Paid dividends ≥ current share price"]
+    },
+    "market": [
+        [
+            {
+                "value": 62,
+                "label": 62,
+                "arrow": "down"
+            },
+            68,
+            76,
+            84,
+            92,
+            {
+                "value": 100,
+                "label": 100,
+                "par": true
+            },
+            110,
+            122,
+            134,
+            148,
+            170,
+            196,
+            225,
+            {
+                "value": 260,
+                "label": 260,
+                "legend": 1
+            }
+        ],
+        [
+            {
+                "value": 58,
+                "label": 58,
+                "arrow": "down"
+            },
+            64,
+            70,
+            78,
+            {
+                "value": 85,
+                "label": 85,
+                "par": true
+            },
+            94,
+            102,
+            112,
+            124,
+            136,
+            150,
+            172,
+            {
+                "value": 198,
+                "label": 198,
+                "arrow": "up"
+            }
+        ],
+        [
+            {
+                "value": 55,
+                "label": 55,
+                "arrow": "down"
+            },
+            60,
+            65,
+            {
+                "value": 70,
+                "label": 70,
+                "par": true
+            },
+            78,
+            86,
+            95,
+            104,
+            114,
+            125,
+            {
+                "value": 138,
+                "label": 138,
+                "arrow": "up"
+            }
+        ],
+        [
+            {
+                "value": 50,
+                "label": 50,
+                "arrow": "down"
+            },
+            55,
+            {
+                "value": 60,
+                "label": 60,
+                "par": true
+            },
+            66,
+            72,
+            80,
+            88,
+            96,
+            {
+                "value": 106,
+                "label": 106,
+                "arrow": "up"
+            }
+        ],
+        [
+            {
+                "value": 38,
+                "label": 38,
+                "arrow": "down",
+                "legend": 0
+            },
+            {
+                "value": 50,
+                "label": 50,
+                "par": true
+            },
+            55,
+            60,
+            66,
+            72,
+            {
+                "value": 80,
+                "label": 80,
+                "arrow": "up"
+            }
+        ],
+        [
+            {
+                "value": 30,
+                "label": 30,
+                "arrow": "down",
+                "legend": 0
+            },
+            {
+                "value": 38,
+                "label": 38,
+                "legend": 0
+            },
+            50,
+            58,
+            {
+                "value": 60,
+                "label": 60,
+                "arrow": "up"
+            }
+        ],
+        [
+            {
+                "value": 24,
+                "label": 24,
+                "arrow": "down",
+                "legend": 0
+            },
+            {
+                "value": 30,
+                "label": 30,
+                "legend": 0
+            },
+            {
+                "value": 38,
+                "label": 38,
+                "legend": 0
+            },
+            {
+                "value": 50,
+                "label": 50,
+                "arrow": "up"
+            }
+        ],
+        [
+            {
+                "value": 20,
+                "label": 20,
+                "legend": 0
+            },
+            {
+                "value": 24,
+                "label": 24,
+                "legend": 0
+            },
+            {
+                "value": 30,
+                "label": 30,
+                "legend": 0
+            },
+            {
+                "value": 38,
+                "label": 38,
+                "arrow": "up",
+                "legend": 0
+            }
+        ]
+    ],
+    "legend": [
+      {
+          "color": "yellow",
+          "description": "Shares of this corporation do not count toward the certificate limit",
+          "icon": "certificate"
+      },
+      {
+          "color": "black",
+          "description": "Game End"
+      }
+    ]
+  },
+  "tiles": {
+    "1": 1,
+    "3": 5,
+    "4": 5,
+    "5": 1,
+    "7": 14,
+    "8": 18,
+    "9": 18,
+    "55": 1,
+    "58": 5,
+    "69": 1,
+    "77": 8,
+    "78": 14,
+    "79": 14,
+    "631": 1,
+    "644": 1,
+    "645": 1,
+    "657": 1,
+    "658": 1,
+    "659": 1,
+    "IR1": {
+        "quantity": 2,
+        "color": "yellow",
+        "labels": [
+            { "label": "BC", "angle": 90, "percent": 0.7 }
+        ],
+        "track": [
+            { "side": 1, "type": "straight", "end": 0.25 }
+        ],
+        "cities": [
+            { "size": 1, "angle": 180, "percent": 0.4 },
+            { "size": 1, "angle": 0, "percent": 0.4 }
+        ],
+        "values": [
+            { "value": 30, "angle": 270, "percent": 0.7 }
+        ]
+    },
+    "IR2": {
+        "quantity": 1,
+        "color": "yellow",
+        "labels": [
+            { "label": "DD", "angle": 270, "percent": 0.7 }
+        ],
+        "track": [
+            { "side": 1, "type": "straight", "end": 0.25 },
+            { "side": 3, "type": "sharp" }
+        ],
+        "terrain": [
+            { "cost": 40, "angle": 220, "percent": 0.8 }
+        ],
+        "cities": [
+            { "size": 1, "angle": 150, "percent": 0.5 }
+        ],
+        "towns": [
+            { "angle": 0, "percent": 0.5 }
+        ],
+        "values": [
+            { "value": 10, "angle": 40, "percent": 0.7 },
+            { "value": 10, "angle": 90, "percent": 0.7 }
+        ]
+    },
+    "IR3": {
+        "quantity": 1,
+        "color": "yellow",
+        "labels": [
+            { "label": "EM", "angle": 215, "percent": 0.75 }
+        ],
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 4 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 10, "angle": 150, "percent": 0.8 }
+        ]
+    },
+    "IR4": {
+        "quantity": 1,
+        "color": "yellow",
+        "labels": [
+            { "label": "EM", "angle": 35, "percent": 0.75 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 10, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR5": {
+        "quantity": 14,
+        "color": "yellow",
+        "towns": [
+            {}
+        ],
+        "values": [
+            { "value": 10, "angle": 180, "percent": 0.5 }
+        ],
+        "track": [
+            { "side": 1, "gauge": "narrow" }
+        ]
+    },
+    "19": 1,
+    "20": 1,
+    "80": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            {"side": 1, "type": "gentle"},
+            {"side": 1, "type": "sharp"},
+            {"side": 2, "type": "sharp"}
+        ]
+    },
+    "81": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            {"side": 1, "type": "gentle"},
+            {"side": 3, "type": "gentle"},
+            {"side": 5, "type": "gentle"}
+        ]
+    },
+    "82": {
+        "quantity": 3,
+        "color": "green",
+        "track": [
+            {"side": 1, "type": "straight"},
+            {"side": 1, "type": "sharp"},
+            {"side": 2, "type": "gentle"}
+        ]
+    },
+    "83": {
+        "quantity": 3,
+        "color": "green",
+        "track": [
+            {"side": 1, "type": "straight"},
+            {"side": 1, "type": "gentle"},
+            {"side": 3, "type": "sharp"}
+        ]
+    },
+    "710": 1,
+    "711": 1,
+    "712": 1,
+    "713": 1,
+    "714": 1,
+    "715": 1,
+    "IR6": {
+        "quantity": 1,
+        "color": "green",
+        "labels": [
+            { "label": "BC", "angle": 130, "percent": 0.7 }
+        ],
+        "track": [
+            { "side": 1, "type": "sharp", "end": 0.25 },
+            { "side": 4, "type": "sharp", "end": 0.25 }
+        ],
+        "cities": [
+            { "size": 1, "angle": 30, "percent": 0.5 },
+            { "size": 1, "angle": 210, "percent": 0.5 }
+        ],
+        "values": [
+            { "value": 40, "angle": 90, "percent": 0.8 },
+            { "value": 40, "angle": 270, "percent": 0.8 }
+        ]
+    },
+    "IR7": {
+        "quantity": 1,
+        "color": "green",
+        "labels": [
+            { "label": "DD", "angle": 270, "percent": 0.7 }
+        ],
+        "track": [
+            { "side": 1, "type": "straight" },
+            { "side": 1, "type": "gentle" },
+            { "side": 3, "type": "sharp" }
+        ],
+        "cities": [
+            { "size": 1, "angle": 120, "percent": 0.6 }
+        ],
+        "centerTowns": [
+            { "angle": 185, "percent": 0.2 }
+        ],
+        "values": [
+            { "value": 20, "angle": 60, "percent": 0.7 },
+            { "value": 10, "angle": 210, "percent": 0.7 }
+        ]
+    },
+    "IR8": {
+        "quantity": 1,
+        "color": "green",
+        "labels": [
+            { "label": "DD", "angle": 270, "percent": 0.7 }
+        ],
+        "track": [
+            { "side": 1, "type": "straight" },
+            { "side": 1, "type": "gentle" },
+            { "side": 3, "type": "sharp" }
+        ],
+        "cities": [
+            { "size": 1, "angle": 180, "percent": 0.5 }
+        ],
+        "centerTowns": [
+            { "angle": 90, "percent": 0.35 }
+        ],
+        "values": [
+            { "value": 10, "angle": 60, "percent": 0.7 },
+            { "value": 20, "angle": 230, "percent": 0.75 }
+        ]
+    },
+    "IR9": {
+        "quantity": 1,
+        "color": "green",
+        "labels": [
+            { "label": "DUB", "angle": 90, "percent": 0.7 }
+        ],
+        "track": [
+            { "side": 1, "type": "straight", "end": 0.25 },
+            { "side": 4, "type": "straight", "end": 0.25 }
+        ],
+        "cities": [
+            { "size": 1, "angle": 180, "percent": 0.4 },
+            { "size": 1, "angle": 0, "percent": 0.4 }
+        ],
+        "values": [
+            { "value": 40, "angle": 240, "percent": 0.7 },
+            { "value": 40, "angle": 300, "percent": 0.7 }
+        ]
+    },
+    "IR10": {
+        "quantity": 1,
+        "color": "green",
+        "labels": [
+            { "label": "EM", "angle": 140, "percent": 0.75 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 4, "gauge": "narrow" },
+            { "side": 5 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 20, "angle": 210, "percent": 0.75 }
+        ]
+    },
+    "IR11": {
+        "quantity": 1,
+        "color": "green",
+        "labels": [
+            { "label": "EM", "angle": 140, "percent": 0.75 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 4 },
+            { "side": 5, "gauge": "narrow" }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 20, "angle": 210, "percent": 0.75 }
+        ]
+    },
+    "IR12": {
+        "quantity": 1,
+        "color": "green",
+        "labels": [
+            { "label": "EM", "angle": 165, "percent": 0.75 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 5 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 20, "angle": 210, "percent": 0.75 }
+        ]
+    },
+    "IR13": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 300, "percent": 0.6 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 5 }
+        ]
+    },
+    "IR14": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 120, "percent": 0.5 }
+        ],
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 4 },
+            { "side": 5 }
+        ]
+    },
+    "IR15": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 300, "percent": 0.6 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 4 }
+        ]
+    },
+    "IR16": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 300, "percent": 0.6 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 4 }
+        ]
+    },
+    "IR17": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 120, "percent": 0.5 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 4 },
+            { "side": 5 }
+        ]
+    },
+    "IR18": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 300, "percent": 0.6 }
+        ],
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 5 }
+        ]
+    },
+    "IR19": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 300, "percent": 0.6 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 5 }
+        ]
+    },
+    "IR20": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 300, "percent": 0.6 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" }
+        ]
+    },
+    "IR21": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 300, "percent": 0.6 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 5, "gauge": "narrow" }
+        ]
+    },
+    "IR22": {
+        "quantity": 1,
+        "color": "green",
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 300, "percent": 0.6 }
+        ],
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4 }
+        ]
+    },
+    "IR23": {
+        "quantity": 2,
+        "color": "green",
+        "towns": [
+            {}
+        ],
+        "values": [
+            { "value": 10, "angle": 120, "percent": 0.5 }
+        ],
+        "track": [
+            { "side": 1, "type": "straight", "gauge": "narrow" }
+        ]
+    },
+    "IR24": {
+        "quantity": 2,
+        "color": "green",
+        "towns": [
+            { "angle": 60, "percent": 0.27, "rotation": 150 }
+        ],
+        "values": [
+            { "value": 10, "angle": 180, "percent": 0.3 }
+        ],
+        "track": [
+            { "side": 1, "type": "gentle", "gauge": "narrow" }
+        ]
+    },
+    "IR25": {
+        "quantity": 2,
+        "color": "green",
+        "towns": [
+            { "angle": 30, "percent": 0.6, "rotation": 120 }
+        ],
+        "values": [
+            { "value": 10, "angle": 30, "percent": 0.1 }
+        ],
+        "track": [
+            { "side": 1, "type": "sharp", "gauge": "narrow" }
+        ]
+    },
+    "IR26": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "type": "straight" },
+            { "side": 2, "type": "sharp", "gauge": "narrow" }
+        ]
+    },
+    "IR27": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "type": "straight", "gauge": "narrow" },
+            { "side": 2, "type": "sharp" }
+        ]
+    },
+    "IR28": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 2, "type": "gentle", "gauge": "narrow" },
+            { "side": 5, "type": "gentle" }
+        ]
+    },
+    "IR29": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "type": "sharp", "gauge": "narrow" },
+            { "side": 3, "type": "gentle" }
+        ]
+    },
+    "IR30": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 2, "type": "sharp", "gauge": "narrow" },
+            { "side": 5, "type": "gentle" }
+        ]
+    },
+    "IR31": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 2, "type": "sharp" },
+            { "side": 5, "type": "gentle", "gauge": "narrow" }
+        ]
+    },
+    "IR32": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "type": "sharp" },
+            { "side": 3, "type": "gentle", "gauge": "narrow" }
+        ]
+    },
+    "IR33": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "type": "sharp" },
+            { "side": 3, "type": "sharp", "gauge": "narrow" }
+        ]
+    },
+    "IR34": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "type": "sharp", "gauge": "narrow" },
+            { "side": 4, "type": "sharp" }
+        ]
+    },
+    "IR35": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "type": "sharp", "gauge": "narrow" },
+            { "side": 3, "type": "sharp" }
+        ]
+    },
+    "IR36": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 30, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR37": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 5 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 30, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR38": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 4 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 30, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR39": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 30, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR40": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3, "gauge": "narrow" }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 30, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR41": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 4, "gauge": "narrow" }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 30, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR42": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 4 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 30, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR43": {
+        "quantity": 1,
+        "color": "green",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 30, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR44": {
+        "quantity": 2,
+        "color": "brown",
+        "labels": [
+            { "label": "BC", "angle": 270, "percent": 0.7 }
+        ],
+        "track": [
+            { "side": 1, "type": "sharp" },
+            { "side": 3, "type": "sharp" }
+        ],
+        "cities": [
+            { "size": 1, "angle": 30, "percent": 0.5 },
+            { "size": 1, "angle": 150, "percent": 0.5 }
+        ],
+        "values": [
+            { "value": 50, "angle": 210, "percent": 0.8 },
+            { "value": 50, "angle": 320, "percent": 0.6 }
+        ]
+    },
+    "IR45": {
+        "quantity": 1,
+        "color": "brown",
+        "labels": [
+            { "label": "DUB", "angle": 262, "percent": 0.75 }
+        ],
+        "track": [
+            { "side": 2, "type": "straight", "end": 0.25 },
+            { "side": 3, "type": "straight", "end": 0.25 },
+            { "side": 4, "type": "sharp", "end": 0.25 },
+            { "side": 6, "type": "sharp", "start": 0.25 }
+        ],
+        "cities": [
+            { "size": 2, "angle": 90, "percent": 0.5, "rotation": 90 },
+            { "size": 1, "angle": 210, "percent": 0.65 },
+            { "size": 1, "angle": 310, "percent": 0.63 }
+        ],
+        "values": [
+            { "value": 50, "angle": 270, "percent": 0.08 }
+        ]
+    },
+    "IR46": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 4, "gauge": "narrow" },
+            { "side": 5 }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR47": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 4 },
+            { "side": 5, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR48": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 4 },
+            { "side": 5 }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR49": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 4 },
+            { "side": 5 }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR50": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" },
+            { "side": 5 }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR51": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 4 },
+            { "side": 5, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR52": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" },
+            { "side": 5 }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR53": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 4 },
+            { "side": 5 }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR54": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" },
+            { "side": 5, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR55": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4 },
+            { "side": 5, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 300, "percent": 0.6 }
+        ]
+    },
+    "IR56": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 4, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 240, "percent": 0.6 }
+        ]
+    },
+    "IR57": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 4, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 240, "percent": 0.6 }
+        ]
+    },
+    "IR58": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 5, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 10, "angle": 180, "percent": 0.6 }
+        ]
+    },
+    "IR59": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "type": "gentle" },
+            { "side": 1, "type": "sharp" },
+            { "side": 2, "type": "sharp" },
+            { "side": 4, "type": "sharp" },
+            { "side": 4, "type": "gentle" },
+            { "side": 5, "type": "sharp" }
+        ]
+    },
+    "IR60": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "type": "gentle", "cross": "over" },
+            { "side": 2, "type": "gentle", "cross": "under" },
+            { "side": 3, "type": "gentle", "cross": "over" },
+            { "side": 4, "type": "gentle", "cross": "under" },
+            { "side": 5, "type": "gentle", "cross": "over" },
+            { "side": 6, "type": "gentle", "cross": "under" }
+        ]
+    },
+    "IR61": {
+        "quantity": 2,
+        "color": "brown",
+        "track": [
+            { "side": 1, "type": "straight", "cross": "over" },
+            { "side": 2, "type": "straight", "cross": "under" },
+            { "side": 2, "type": "sharp", "cross": "under" },
+            { "side": 3, "type": "gentle", "cross": "under" },
+            { "side": 4, "type": "gentle", "cross": "over" },
+            { "side": 6, "type": "sharp", "cross": "over" }
+        ]
+    },
+    "IR62": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 40, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR63": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 4 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 40, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR64": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 4 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 40, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR65": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 40, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "IR66": {
+        "quantity": 1,
+        "color": "brown",
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" },
+            { "side": 5 },
+            { "side": 6 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 40, "angle": 210, "percent": 0.8 }
+        ]
+    },
+    "60": 2,
+    "IR67": {
+        "quantity": 2,
+        "color": "gray",
+        "labels": [
+            { "label": "BC", "angle": 210, "percent": 0.75 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4 }
+        ],
+        "cities": [
+            { "size": 2 }
+        ],
+        "values": [
+            { "value": 60, "angle": 150, "percent": 0.8 }
+        ]
+    },
+    "IR68": {
+        "quantity": 1,
+        "color": "gray",
+        "labels": [
+            { "label": "DUB", "angle": 270, "percent": 0.88, "rotation": 90 }
+        ],
+        "track": [
+            { "side": 1 },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4 }
+        ],
+        "cities": [
+            { "size": 4 }
+        ],
+        "values": [
+            { "value": 60, "angle": 90, "percent": 0.88 }
+        ]
+    },
+    "IR69": {
+        "quantity": 1,
+        "color": "gray",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" },
+            { "side": 5, "gauge": "narrow" },
+            { "side": 6 }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 90, "percent": 0.8 }
+        ]
+    },
+    "IR70": {
+        "quantity": 1,
+        "color": "gray",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3 },
+            { "side": 4, "gauge": "narrow" },
+            { "side": 5 },
+            { "side": 6, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 90, "percent": 0.8 }
+        ]
+    },
+    "IR71": {
+        "quantity": 1,
+        "color": "gray",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2, "gauge": "narrow" },
+            { "side": 3 },
+            { "side": 4 },
+            { "side": 5 },
+            { "side": 6, "gauge": "narrow" }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 90, "percent": 0.8 }
+        ]
+    },
+    "IR72": {
+        "quantity": 1,
+        "color": "gray",
+        "track": [
+            { "side": 1, "gauge": "narrow" },
+            { "side": 2 },
+            { "side": 3, "gauge": "narrow" },
+            { "side": 4 },
+            { "side": 5, "gauge": "narrow" },
+            { "side": 6 }
+        ],
+        "centerTowns": [{}],
+        "values": [
+            { "value": 20, "angle": 90, "percent": 0.8 }
+        ]
+    }
+  },
+  "map": {
+    "roundTracker": {
+      "x": 50,
+      "y": 350
+    },
+    "players": {
+      "x": 50,
+      "y": 225
+    },
+    "borders": [
+        {
+            "color": "water",
+            "coords": ["E3p5", "E3p6", "D4p5", "D4p6"]
+        },
+        {
+            "color": "water",
+            "coords": ["I3p5", "I3p6"]
+        },
+        {
+            "color": "water",
+            "coords": ["B8p5", "B8p6"]
+        },
+        {
+            "color": "water",
+            "coords": ["C13p4", "C13p5", "C13p6"]
+        },
+        {
+            "color": "water",
+            "coords": ["C15p5", "C15p6", "B16p5", "B16p6"]
+        },
+        {
+            "color": "water",
+            "coords": ["A19p4", "A19p5", "A19p6"]
+        },
+        {
+            "color": "water",
+            "coords": ["G19p6", "G19p1"]
+        }
+    ],
+    "hexes": [
+        {
+            "color": "plain",
+            "hexes": [
+                "I1",
+                "F2",
+                "G3", "I3",
+                "G5",
+                "H6",
+                "C7",
+                "D8", "H8",
+                "E9",
+                "D10",
+                "C11", "E11", "G11",
+                "D14", "H14",
+                "G15",
+                "F16",
+                "C17",
+                "D18",
+                "E19"
+            ]
+        },
+        {
+            "color": "plain",
+            "terrain": [
+                {"type": "mountain", "cost": 100}
+            ],
+            "hexes": ["E3", "I15", "B20"]
+        },
+        {
+            "color": "plain",
+            "terrain": [
+                {"type": "mountain", "cost": 80}
+            ],
+            "hexes": ["E15"]
+        },
+        {
+            "color": "plain",
+            "terrain": [
+                {"type": "mountain", "cost": 40}
+            ],
+            "hexes": ["E5", "J6", "I7", "B12", "F18", "C19", "D20", "F20"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Burtonport"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 100, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["E1"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"name": {"name": "Londonderry"}, "companies": ["LER"]}
+            ],
+            "icons": [
+                {"type": "port", "angle": 30, "percent": 0.7},
+                {"type": "mail", "angle": 330, "percent": 0.7}
+            ],
+            "hexes": ["G1"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Dungiven"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["H2"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Larne"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["J2"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Killybegs"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 100, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["D4"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Donegal"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["F4"]
+        },
+        {
+            "color": "plain",
+            "terrain": [
+                {"type": "mountain", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "companies": [
+                {"label": "DCR", "angle": 0, "percent": 0.5}
+            ],
+            "hexes": ["H4"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"angle": 150, "percent": 0.5},
+                {"angle": 330, "percent": 0.5, "name": {"name": "Belfast"}, "companies": ["UR"]}
+            ],
+            "labels": [
+                {"label": "BC", "angle": 60, "percent": 0.6}
+            ],
+            "icons": [
+                {"type": "port", "angle": 240, "percent": 0.7}
+            ],
+            "hexes": ["J4"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"angle": 90, "percent": 0.4, "name": {"name": "Armagh"}},
+                {"angle": 270, "percent": 0.4, "name": {"name": "Portadown", "reverse": true}}
+            ],
+            "hexes": ["I5"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"companies": ["GJR"], "name": {"name": "Sligo"}}
+            ],
+            "hexes": ["D6"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"size": 2, "companies": ["EBSR", "SLNCR"], "name": {"name": "Enniskillen"}}
+            ],
+            "labels": [
+                {"label": "EM", "angle": 0, "percent": 0.7}
+            ],
+            "hexes": ["F6"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Collooney"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 80, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["E7"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Clones"}}
+            ],
+            "hexes": ["G7"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Achill"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 100, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["B8"]
+        },
+        {
+            "color": "plain",
+            "terrain": [
+                {"type": "river", "cost": 40}
+            ],
+            "hexes": ["F8", "H10", "H12", "E13", "H18"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Claremorris"}, "angle": 0, "percent": 0}
+            ],
+            "hexes": ["C9"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Cavan"}, "angle": 0, "percent": 0}
+            ],
+            "hexes": ["G9"]
+        },
+        {
+            "color": "plain",
+            "labels": [
+                {"label": "DD", "angle": 270, "percent": 0.7}
+            ],
+            "cities": [
+                {"name": {"name": "Dundalk"}, "angle": 180, "percent": 0.3, "companies": ["DER"]}
+            ],
+            "centerTowns": [
+                {"name": {"name": "Drogheda"}, "angle": 0, "percent": 0.6}
+            ],
+            "hexes": ["I9"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Westport"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 100, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["B10"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"name": {"name": "Dromod"}, "angle": 0, "percent": 0.5, "companies": ["GNWR"]}
+            ],
+            "terrain": [
+                {"type": "river", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["F10"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Clifden"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 100, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["A11"]
+        },
+        {
+            "color": "yellow",
+            "track": [
+                {"side": 1, "type": "straight", "end": 0.25},
+                {"side": 4, "type": "straight", "end": 0.25}
+            ],
+            "cities": [
+                {"size": 1, "angle": 180, "percent": 0.4, "companies": ["DDR"]},
+                {"size": 1, "angle": 0, "percent": 0.4, "companies": ["DKR"]}
+            ],
+            "values": [
+                {"value": 30, "angle": 230, "percent": 0.75},
+                {"value": 30, "angle": 310, "percent": 0.75}
+            ],
+            "names": [
+                {"name": "Dublin", "angle": 90, "percent": 0.6}
+            ],
+            "labels": [
+                {"label": "DUB", "angle": 270, "percent": 0.6}
+            ],
+            "hexes": ["I11"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Athenry"}, "angle": 0, "percent": 0}
+            ],
+            "hexes": ["D12"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Athlone"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "river", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["F12"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"name": {"name": "Galway"}}
+            ],
+            "hexes": ["C13"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"size": 2, "companies": ["KJR", "CIR"], "name": {"name": "Maryborough"}}
+            ],
+            "labels": [
+                {"label": "EM", "angle": 0, "percent": 0.7}
+            ],
+            "hexes": ["G13"]
+        },
+        {
+            "color": "yellow",
+            "track": [
+                {"side": 4, "type": "straight", "end": 0.25}
+            ],
+            "towns": [
+                {"angle": 180, "percent": 0.5}
+            ],
+            "names": [
+                {"name": "Kingstown", "angle": 180, "percent": 0.2}
+            ],
+            "values": [
+                {"value": 10, "angle": 220, "percent": 0.75}
+            ],
+            "icons": [
+                {"type": "mail", "angle": 0, "percent": 0.5}
+            ],
+            "hexes": ["I13"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Ballybrophy"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["F14"]
+        },
+        {
+            "centerTowns": [
+                {"name": {"name": "Wicklow"}, "angle": 0, "percent": 0.5}
+            ],
+            "companies": [
+                {"label": "DAR", "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["J14"]
+        },
+        {
+            "centerTowns": [
+                {"name": {"name": "Ennis"}, "angle": 0, "percent": 0}
+            ],
+            "hexes": ["C15"]
+        },
+        {
+            "centerTowns": [
+                {"name": {"name": "Kilkee"}, "angle": 0, "percent": 0}
+            ],
+            "hexes": ["B16"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"name": {"name": "Limerick"}, "angle": 0, "percent": 0.5, "companies": ["WLR"]}
+            ],
+            "terrain": [
+                {"type": "river", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["D16"]
+        },
+        {
+            "centerTowns": [
+                {"name": {"name": "Carlow"}, "angle": 0, "percent": 0}
+            ],
+            "hexes": ["H16"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"angle": 0, "percent": 0.4, "name": {"name": "Charleville", "reverse": true}},
+                {"angle": 180, "percent": 0.4, "name": {"name": "Limerick Junction", "reverse": true}}
+            ],
+            "hexes": ["E17"]
+        },
+        {
+            "centerTowns": [
+                {"name": {"name": "Kilkenny"}, "angle": 0, "percent": 0}
+            ],
+            "hexes": ["G17"]
+        },
+        {
+            "cities": [
+                {"name": {"name": "Wexford"}, "angle": 0, "percent": 0}
+            ],
+            "hexes": ["I17"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Tralee"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 40, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["B18"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Dingle"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 100    , "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["A19"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"name": {"name": "Waterford"}, "companies": ["WKR"]}
+            ],
+            "icons": [
+                {"type": "mail", "angle": 30, "percent": 0.7}
+            ],
+            "hexes": ["G19"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Rosslare", "reverse": true}}
+            ],
+            "icons": [
+                {"type": "port", "angle": 210, "percent": 0.7}
+            ],
+            "hexes": ["I19"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Valentia"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 100, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["A21"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Bantry"}, "angle": 0, "percent": 0.5}
+            ],
+            "terrain": [
+                {"type": "mountain", "cost": 100, "angle": 180, "percent": 0.5}
+            ],
+            "hexes": ["C21"]
+        },
+        {
+            "color": "plain",
+            "cities": [
+                {"angle": 90, "percent": 0.5, "companies": ["CBPR"]},
+                {"angle": 270, "percent": 0.5}
+            ],
+            "labels": [
+                {"label": "BC", "angle": 180, "percent": 0.7}
+            ],
+            "hexes": ["E21"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Clonakilty"}}
+            ],
+            "hexes": ["D22"]
+        },
+        {
+            "color": "plain",
+            "centerTowns": [
+                {"name": {"name": "Baltimore"}}
+            ],
+            "hexes": ["C23"]
+        }
+    ]
+  }
+}

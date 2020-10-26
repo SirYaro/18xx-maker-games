@@ -1,0 +1,2430 @@
+{
+  "info": {
+    "title": "1891",
+    "subtitle": "Railroading in Hiroshima",
+    "designer": "Toryo Hojo",
+    "background": "water",
+    "titleY": 900,
+    "titleX": 1725,
+    "currency": "¥#"
+  },
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 20,
+      "capital": 500
+    },
+    {
+      "number": 4,
+      "certLimit": 16,
+      "capital": 375
+    },
+    {
+      "number": 5,
+      "certLimit": 13,
+      "capital": 300
+    },
+    {
+      "number": 6,
+      "certLimit": 11,
+      "capital": 250
+    }
+  ],
+  "pools": [
+    {
+      "name": "Bank Pool",
+      "notes": [
+        {
+          "color": "blue",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "purple",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    },
+    {
+      "name": "Escrow Shares Pool",
+      "notes": [
+        {
+          "color": "red",
+          "icon": "coins",
+          "note": "Shares in the escrow pool do not pay to the company upon purchase"
+        },
+        {
+          "color": "green",
+          "icon": "exclamation",
+          "note": "Until the last 5T is sold, 50% of shares go into the escrow pool upon purchase of the presidents share"
+        },
+        {
+          "color": "green",
+          "icon": "bank",
+          "note": "Upon destination, shares in the escrow pool go to the Capitalized Shares Pool"
+        }
+      ]
+    },
+    {
+      "name": "Capitalized Shares Pool",
+      "notes": [
+        {
+          "color": "green",
+          "icon": "coins",
+          "note": "Shares in the escrow pool pay to the company upon purchase"
+        },
+        {
+          "color": "green",
+          "icon": "exclamation",
+          "note": "Until the last 5T is sold, 50% of shares go into the escrow pool upon purchase of the presidents share"
+        }
+      ]
+    }
+  ],
+  "tokens": [
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    {
+      "color": "gray",
+      "label": "JNR"
+    },
+    "Round",
+    "CR +10",
+    "CR +10",
+    "CR +10",
+    "CR +10",
+    "YPT +10",
+    "YPT +10",
+    "YPT +10",
+    "YPT +10"
+  ],
+  "ipo": true,
+  "privates": [
+    {
+      "id": "A",
+      "name": "Toyohira Timbers Railway",
+      "price": 20,
+      "revenue": 5
+    },
+    {
+      "id": "B",
+      "name": "Jinkou Railway",
+      "price": 40,
+      "revenue": 10,
+      "hex": "D31",
+      "description": "During its operating round, the public company owning this company may place a green track tile in the hex"
+    },
+    {
+      "id": "C",
+      "name": "Japan Tramline branch in Hiroshima",
+      "price": 50,
+      "revenue": 10,
+      "description": "During its operating round, the public company owning this company may lay one or two additional yellow track tiles at no cost in mountains. This does not close the company"
+    },
+    {
+      "id": "D",
+      "name": "Transportation Bureau of Hiroshima City",
+      "price": 70,
+      "revenue": 15,
+      "hex": "F9",
+      "description": "During its operating round, the owning company for its tile and/or token actions pay to place a station marker or upgrade Hiroshima. This closes the private company at the end of the round"
+    },
+    {
+      "id": "E",
+      "name": "Yamaguchi Prefectural Tramline",
+      "price": 100,
+      "revenue": 20,
+      "hex": "I2",
+      "description": "The player owning this private may exchange it for a 10% share of the IET. If owned by a public company, it receives a +10 bonus to running to Iwakuni. Other public companies can purchase this bonus from the owning company for 50"
+    },
+    {
+      "id": "F",
+      "name": "Chugoku Railway",
+      "price": 100,
+      "revenue": 20,
+      "hex": "D33",
+      "description": "The public company owning this gets a +10 bonus when running to Kurashiki/Seja. Other public companies can buy this right from the owning company for 50"
+    },
+    {
+      "id": "G",
+      "name": "San-yo Railway",
+      "price": 120,
+      "company": "SR",
+      "description": "This private is immediately traded in for the president's share of Sanyo Railway. It is guaranteed to operate, and is discarded if all players pass during the private auction"
+    }
+  ],
+  "bank": 12000,
+  "links": {
+    "bgg": "https://www.boardgamegeek.com/boardgame/38304/1891",
+    "rules": "https://www.boardgamegeek.com/filepage/142184/1891-rules"
+  },
+  "trains": [
+    {
+      "name": "2",
+      "price": 100,
+      "quantity": 5,
+      "color": "yellow",
+      "rust": "4"
+    },
+    {
+      "name": "2",
+      "description": "This train starts in the open market",
+      "price": 100,
+      "quantity": 1,
+      "color": "yellow",
+      "rust": "4"
+    },
+    {
+      "name": "2+2",
+      "price": 130,
+      "quantity": 2,
+      "description": "This train starts in the open market",
+      "color": "yellow",
+      "rust": "4"
+    },
+    {
+      "name": "3",
+      "quantity": 5,
+      "price": 225,
+      "color": "green",
+      "rust": "6"
+    },
+    {
+      "name": "4",
+      "quantity": 4,
+      "price": 350,
+      "color": "green",
+      "rust": "D"
+    },
+    {
+      "name": "5",
+      "quantity": 3,
+      "price": 550,
+      "color": "brown"
+    },
+    {
+      "name": "6",
+      "quantity": 2,
+      "price": 700,
+      "color": "gray"
+    },
+    {
+      "name": "D",
+      "quantity": "∞",
+      "print": 10,
+      "price": 1100,
+      "color": "black",
+      "description": "¥350 discount when trading in a 4T, 5T, or 6T",
+      "available": "6",
+      "discount": {
+        "4": 350,
+        "5": 350,
+        "6": 350
+      }
+    },
+    {
+      "name": "8",
+      "quantity": "∞",
+      "print": 10,
+      "price": 1000,
+      "color": "black",
+      "available": "6",
+      "description": "¥350 discount when trading in a 4T, 5T, or 6T",
+      "discount": {
+        "4": 350,
+        "5": 350,
+        "6": 350
+      }
+    }
+  ],
+  "phases": [
+    {
+      "name": "2",
+      "limit": 4,
+      "tiles": "yellow",
+      "rounds": 1,
+      "notes": "The 6th 2T and the 2 2+2s start in the open market",
+      "train": ["2", "2+2"]
+    },
+    {
+      "name": "3",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "green",
+      "notes": "Private companies may be purchased."
+    },
+    {
+      "name": "4",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "name": "5",
+      "limit": 2,
+      "rounds": 3,
+      "tiles": "brown",
+      "notes": "Private companies are closed."
+    },
+    {
+      "name": "6",
+      "limit": 2,
+      "rounds": 3,
+      "tiles": "gray",
+      "notes": "The JNR is started. D Trains may be purchased."
+    },
+    {
+      "name": "D",
+      "limit": 2,
+      "rounds": 3,
+      "train": ["8", "D"],
+      "tiles": "gray",
+      "notes": "The D trains can be swapped with 8 trains in the variant rules"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": ["Buy one certificate", "Sell any number of certificates"],
+      "ordered": false
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+        "Lay or upgrade track",
+        "Purchase a station",
+        "Run trains",
+        "Pay interest on government loans",
+        "Pay dividends or withhold revenue",
+        "Purchase trains",
+        "Redeem government loans"
+      ],
+      "ordered": true,
+      "optional": ["Purchase private companies"]
+    }
+  ],
+  "stock": {
+    "type": "2D",
+    "display": {
+      "par": {
+        "x": 12,
+        "y": 4
+      },
+      "roundTracker": {
+        "type": "col-reverse",
+        "x": 7,
+        "y": 6
+      },
+      "legend": {
+        "reverse": true,
+        "verticalAlign": "bottom",
+        "x": 5,
+        "y": 11
+      }
+    },
+    "par": {
+      "values": [100, 90, 80, 75, 70, 65]
+    },
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Every 10% sold"],
+      "left": ["Revenue withheld"],
+      "right": ["Revenue paid out"]
+    },
+    "market": [
+      [
+        {
+          "value": 70,
+          "label": 70,
+          "arrow": "down"
+        },
+        75,
+        80,
+        90,
+        {
+          "value": 100,
+          "label": 100,
+          "par": true
+        },
+        110,
+        125,
+        150,
+        175,
+        200,
+        225,
+        250,
+        275,
+        300,
+        325,
+        350,
+        375,
+        400,
+        425,
+        450
+      ],
+      [
+        {
+          "value": 65,
+          "label": 65,
+          "arrow": "down"
+        },
+        70,
+        75,
+        80,
+        {
+          "value": 90,
+          "label": 90,
+          "par": true
+        },
+        100,
+        110,
+        125,
+        150,
+        175,
+        200,
+        225,
+        250,
+        275,
+        300,
+        325,
+        350,
+        375,
+        400,
+        {
+          "value": 425,
+          "label": 425,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 60,
+          "label": 60,
+          "arrow": "down"
+        },
+        65,
+        70,
+        75,
+        {
+          "value": 80,
+          "label": 80,
+          "par": true
+        },
+        90,
+        100,
+        110,
+        125,
+        150,
+        175,
+        200,
+        225,
+        250,
+        {
+          "value": 275,
+          "label": 275,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 55,
+          "label": 55,
+          "arrow": "down"
+        },
+        60,
+        65,
+        70,
+        {
+          "value": 75,
+          "label": 75,
+          "par": true
+        },
+        80,
+        90,
+        100,
+        110,
+        125,
+        150,
+        175,
+        {
+          "value": 200,
+          "label": 200,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0,
+          "arrow": "down"
+        },
+        55,
+        60,
+        65,
+        {
+          "value": 70,
+          "label": 70,
+          "par": true
+        },
+        75,
+        80,
+        90,
+        100,
+        110,
+        {
+          "value": 125,
+          "label": 125,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 45,
+          "label": 45,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        55,
+        60,
+        {
+          "value": 65,
+          "label": 65,
+          "par": true
+        },
+        70,
+        75,
+        80,
+        {
+          "value": 90,
+          "label": 90,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1,
+          "arrow": "down"
+        },
+        {
+          "value": 45,
+          "label": 45,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        55,
+        60,
+        65,
+        {
+          "value": 70,
+          "label": 70,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 35,
+          "label": 35,
+          "legend": 1
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 45,
+          "label": 45,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        55,
+        {
+          "value": 60,
+          "label": 60,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 1
+        },
+        {
+          "value": 35,
+          "label": 35,
+          "legend": 1
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 45,
+          "label": 45,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 1
+        },
+        {
+          "value": 35,
+          "label": 35,
+          "legend": 1
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 45,
+          "label": 45,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "legend": 2
+        },
+        {
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 1
+        },
+        {
+          "value": 35,
+          "label": 35,
+          "legend": 1
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1,
+          "arrow": "up"
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "yellow",
+        "description": "Shares of this corporation do not count toward the certificate limit",
+        "icon": "certificate"
+      },
+      {
+        "color": "orange",
+        "description": "Players may own more than 60% of this corporation",
+        "icon": "percentage"
+      },
+      {
+        "color": "black",
+        "description": "Corporations close. JNR cannot enter this zone for any reason",
+        "icon": "money-bill-wave"
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "name": "OR3",
+      "color": "brown"
+    },
+    {
+      "name": "OR2",
+      "color": "green"
+    },
+    {
+      "name": "OR1",
+      "color": "yellow"
+    },
+    {
+      "name": "SR",
+      "color": "gray"
+    }
+  ],
+  "map": {
+    "players": {
+      "x": 2325,
+      "y": 1000
+    },
+    "hexes": [
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 80,
+            "size": "large"
+          }
+        ],
+        "hexes": [
+          "B5",
+          "B7",
+          "B19",
+          "B29",
+          "B31",
+          "C24",
+          "C30",
+          "D15",
+          "D17",
+          "F3",
+          "F5"
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 40
+          }
+        ],
+        "hexes": [
+          "B9",
+          "B13",
+          "B17",
+          "B21",
+          "C12",
+          "C16",
+          "C26",
+          "D3",
+          "D19",
+          "D27",
+          "E4",
+          "E12",
+          "E22",
+          "F19",
+          "G14"
+        ]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "B27",
+          "C2",
+          "C8",
+          "C10",
+          "C14",
+          "C20",
+          "D1",
+          "D5",
+          "D7",
+          "D23",
+          "D29",
+          "E2",
+          "E10",
+          "E14",
+          "E20",
+          "E24",
+          "E28",
+          "E32",
+          "F7",
+          "F13",
+          "F17",
+          "F25",
+          "F29",
+          "F31",
+          "G2",
+          "G4",
+          "G10",
+          "G12",
+          "G16",
+          "G22",
+          "H13"
+        ]
+      },
+      {
+        "color": "gray",
+        "hexes": ["A16"],
+        "removeBorders": [4],
+        "values": [
+          {
+            "value": 10,
+            "angle": 150,
+            "percent": 0.25
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 60,
+            "angle": 330,
+            "percent": 0.26,
+            "name": {
+              "name": "Kotachi",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 4,
+            "type": "gentle"
+          }
+        ]
+      },
+      {
+        "color": "gray",
+        "hexes": ["A18"],
+        "removeBorders": [1, 4],
+        "values": [
+          {
+            "value": 10,
+            "angle": 180,
+            "percent": 0.5
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 90,
+            "angle": 90,
+            "name": {
+              "name": "Shiwachi",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 1,
+            "type": "straight"
+          }
+        ]
+      },
+      {
+        "color": "gray",
+        "hexes": ["A20"],
+        "removeBorders": [1, 4],
+        "values": [
+          {
+            "value": 40,
+            "angle": 180,
+            "percent": 0.75
+          }
+        ],
+        "cities": [
+          {
+            "size": 2,
+            "name": {
+              "name": "Miyoshi"
+            }
+          }
+        ],
+        "tokens": [
+          {
+            "angle": -30,
+            "percent": 0.7,
+            "company": "RR",
+            "destination": true
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 6
+          }
+        ]
+      },
+      {
+        "color": "gray",
+        "hexes": ["A22"],
+        "removeBorders": [1],
+        "values": [
+          {
+            "value": 20,
+            "angle": 180,
+            "percent": 0.75
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Shiomachi"
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ]
+      },
+      {
+        "color": "gray",
+        "hexes": ["B3"],
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.75,
+            "company": "KR",
+            "destination": true
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "angle": 180,
+            "percent": 0.75
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Sandankyo"
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 5
+          }
+        ]
+      },
+      {
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.5,
+            "company": "GR",
+            "destination": true
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Bingo-shobara"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            },
+            {
+              "color": "black",
+              "textColor": "white",
+              "cost": "40"
+            }
+          ]
+        },
+        "hexes": ["A24"]
+      },
+      {
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Taishakukyo"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            },
+            {
+              "color": "black",
+              "textColor": "white",
+              "cost": "50"
+            }
+          ]
+        },
+        "hexes": ["A32"]
+      },
+      {
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Port of Kure"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            },
+            {
+              "color": "black",
+              "textColor": "white",
+              "cost": "60"
+            }
+          ]
+        },
+        "hexes": ["I10"]
+      },
+      {
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.5,
+            "company": "HER",
+            "destination": true
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Miyajima"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            },
+            {
+              "color": "black",
+              "textColor": "white",
+              "cost": "50"
+            }
+          ]
+        },
+        "hexes": ["H5"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [5],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "cities": [
+          {
+            "companies": ["IET"]
+          }
+        ],
+        "hexes": ["H1"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [2],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "tokens": [
+          {
+            "destination": true,
+            "label": "YPT",
+            "angle": 150,
+            "percent": 0.75
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Iwakuni"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            },
+            {
+              "color": "black",
+              "textColor": "white",
+              "cost": "50"
+            }
+          ]
+        },
+        "hexes": ["I2"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [5],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Kurashiki / Soja"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            },
+            {
+              "color": "black",
+              "textColor": "white",
+              "cost": "50"
+            }
+          ]
+        },
+        "tokens": [
+          {
+            "destination": true,
+            "label": "CR",
+            "angle": 150,
+            "percent": 0.75
+          }
+        ],
+        "hexes": ["D33"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [2],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          }
+        ],
+        "hexes": ["E34"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Otake"
+            }
+          }
+        ],
+        "hexes": ["H3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Hatsukaichi"
+            }
+          }
+        ],
+        "hexes": ["G6"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "companies": ["KR"],
+            "name": {
+              "name": "Kabe"
+            }
+          }
+        ],
+        "hexes": ["D9"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "companies": ["GR"],
+            "name": {
+              "name": "Nakafukawa"
+            }
+          }
+        ],
+        "hexes": ["D11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Mukaihara"
+            }
+          }
+        ],
+        "hexes": ["B15"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "percent": 0.75,
+            "label": "Y"
+          }
+        ],
+        "cities": [
+          {
+            "companies": ["GET"],
+            "name": {
+              "name": "Kure"
+            }
+          }
+        ],
+        "hexes": ["H11"]
+      },
+      {
+        "color": "plain",
+        "tokens": [
+          {
+            "angle": 45,
+            "percent": 0.65,
+            "company": "IR",
+            "destination": true
+          },
+          {
+            "angle": -45,
+            "percent": 0.65,
+            "company": "IET",
+            "destination": true
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Saijo"
+            }
+          }
+        ],
+        "hexes": ["E16"]
+      },
+      {
+        "color": "plain",
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.65,
+            "company": "TR",
+            "destination": true
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Fuchu"
+            }
+          }
+        ],
+        "hexes": ["C28"]
+      },
+      {
+        "color": "plain",
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.65,
+            "company": "MoCR",
+            "destination": true
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Takehara"
+            }
+          }
+        ],
+        "hexes": ["G20"]
+      },
+      {
+        "color": "plain",
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.65,
+            "company": "GET",
+            "destination": true
+          }
+        ],
+        "cities": [
+          {
+            "companies": ["SR"],
+            "name": {
+              "name": "Mihara"
+            }
+          }
+        ],
+        "hexes": ["F23"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "companies": ["TR"],
+            "name": {
+              "name": "Tomo"
+            }
+          }
+        ],
+        "hexes": ["G30"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "companies": ["OR"],
+            "name": {
+              "name": "Onomichi"
+            }
+          }
+        ],
+        "hexes": ["F27"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Togochi"
+            }
+          }
+        ],
+        "hexes": ["C4"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Kake"
+            }
+          }
+        ],
+        "hexes": ["C6"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Iwakura"
+            }
+          }
+        ],
+        "hexes": ["F1"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.6,
+            "name": {
+              "name": "Oasa"
+            }
+          },
+          {
+            "angle": 240,
+            "percent": 0.6,
+            "name": {
+              "name": "Chiyoda",
+              "reverse": true
+            }
+          }
+        ],
+        "hexes": ["B11"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.6,
+            "name": {
+              "name": "Hukutomi"
+            }
+          },
+          {
+            "angle": 240,
+            "percent": 0.6,
+            "name": {
+              "name": "Toyosaka",
+              "reverse": true
+            }
+          }
+        ],
+        "hexes": ["C18"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.6,
+            "name": {
+              "name": "Daiwa"
+            }
+          },
+          {
+            "angle": 240,
+            "percent": 0.6,
+            "name": {
+              "name": "Kui",
+              "reverse": true
+            }
+          }
+        ],
+        "hexes": ["D21"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.6,
+            "name": {
+              "name": "Sera"
+            }
+          }
+        ],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 40,
+            "angle": 240,
+            "percent": 0.6
+          }
+        ],
+        "hexes": ["C22"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.6,
+            "name": {
+              "name": "Kisa"
+            }
+          }
+        ],
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": 40,
+            "angle": 240,
+            "percent": 0.6
+          }
+        ],
+        "hexes": ["B23"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Karuga"
+            }
+          }
+        ],
+        "hexes": ["D13"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Yasu-ura"
+            }
+          }
+        ],
+        "hexes": ["H15"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Akitsu"
+            }
+          }
+        ],
+        "hexes": ["G18"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Kochi"
+            }
+          }
+        ],
+        "hexes": ["E18"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Togo"
+            }
+          }
+        ],
+        "hexes": ["F21"]
+      },
+      {
+        "color": "plain",
+        "tokens": [
+          {
+            "angle": 0,
+            "percent": 0.65,
+            "company": "OR",
+            "destination": true
+          }
+        ],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Joge"
+            }
+          }
+        ],
+        "hexes": ["B25"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Mitsuki"
+            }
+          }
+        ],
+        "hexes": ["D25"]
+      },
+      {
+        "color": "yellow",
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 300,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "companies": ["IR"],
+            "name": {
+              "name": "Kannabe"
+            }
+          }
+        ],
+        "companies": [
+          {
+            "label": "JR",
+            "angle": -180,
+            "percent": 0.75
+          }
+        ],
+        "hexes": ["D31"]
+      },
+      {
+        "color": "yellow",
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 3
+          }
+        ],
+        "labels": [
+          {
+            "label": "Y",
+            "percent": 0.75
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "angle": 120,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "companies": ["RR"],
+            "name": {
+              "name": "Fukuyama",
+              "reverse": true
+            }
+          }
+        ],
+        "hexes": ["E30"]
+      },
+      {
+        "color": "yellow",
+        "track": [
+          {
+            "side": 3,
+            "type": "gentle"
+          }
+        ],
+        "hexes": ["E8"]
+      },
+      {
+        "color": "yellow",
+        "track": [
+          {
+            "side": 6,
+            "type": "sharp",
+            "start": 0.5
+          },
+          {
+            "side": 2,
+            "type": "straight",
+            "end": 0.25
+          },
+          {
+            "side": 4,
+            "type": "sharp",
+            "end": 0.5
+          },
+          {
+            "side": 3,
+            "type": "straight",
+            "end": 0.25
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 90,
+            "percent": 0.4,
+            "company": "SR",
+            "destination": true
+          },
+          {
+            "angle": -90,
+            "percent": 0.4,
+            "company": "HRT",
+            "destination": true
+          }
+        ],
+        "labels": [
+          {
+            "label": "H",
+            "percent": 0.4
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "percent": 0
+          }
+        ],
+        "cities": [
+          {
+            "angle": -45,
+            "percent": 0.75
+          },
+          {
+            "companies": ["HER"],
+            "angle": 45,
+            "percent": 0.75
+          },
+          {
+            "angle": 141,
+            "percent": 0.63
+          },
+          {
+            "angle": -141,
+            "percent": 0.63
+          }
+        ],
+        "companies": [
+          {
+            "label": "TBH",
+            "angle": 0,
+            "percent": 0.8
+          }
+        ],
+        "hexes": ["F9"]
+      },
+      {
+        "color": "yellow",
+        "track": [
+          {
+            "side": 1,
+            "type": "straight"
+          },
+          {
+            "side": 6,
+            "type": "sharp",
+            "end": 0.5
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": -15,
+            "percent": 0.8
+          },
+          {
+            "value": 20,
+            "angle": 180,
+            "percent": 0.6
+          }
+        ],
+        "cities": [
+          {
+            "angle": -90,
+            "percent": 0.55,
+            "name": {
+              "name": "Kaidaichi"
+            }
+          },
+          {
+            "companies": ["MoCR"],
+            "angle": 30,
+            "percent": 0.55
+          }
+        ],
+        "hexes": ["F11"]
+      },
+      {
+        "color": "yellow",
+        "terrain": [
+          {
+            "type": "mountain",
+            "size": "large",
+            "percent": 0.65,
+            "angle": 180,
+            "cost": 80
+          }
+        ],
+        "labels": [
+          {
+            "label": "OO",
+            "percent": 0.75
+          }
+        ],
+        "cities": [
+          {
+            "angle": 90,
+            "percent": 0.55,
+            "name": {
+              "name": "Koiki-koen",
+              "percent": 0.4,
+              "reverse": true
+            }
+          },
+          {
+            "angle": -90,
+            "percent": 0.55,
+            "companies": ["HRT"]
+          }
+        ],
+        "hexes": ["E6"]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "label": "OO",
+            "angle": 45,
+            "percent": 0.65
+          }
+        ],
+        "cities": [
+          {
+            "angle": 135,
+            "percent": 0.55,
+            "name": {
+              "name": "Higashi-hiroshima",
+              "percent": 0.4,
+              "reverse": true
+            }
+          },
+          {
+            "angle": -45,
+            "percent": 0.55
+          }
+        ],
+        "hexes": ["F15"]
+      },
+      {
+        "color": "yellow",
+        "terrain": [
+          {
+            "type": "mountain",
+            "percent": 0.65,
+            "angle": -135,
+            "cost": 40
+          }
+        ],
+        "labels": [
+          {
+            "label": "OO",
+            "angle": 45,
+            "percent": 0.65
+          }
+        ],
+        "cities": [
+          {
+            "angle": 135,
+            "percent": 0.55,
+            "name": {
+              "name": "Shin-onomichi",
+              "percent": 0.4,
+              "reverse": true
+            }
+          },
+          {
+            "angle": -45,
+            "percent": 0.55
+          }
+        ],
+        "hexes": ["E26"]
+      }
+    ]
+  },
+  "companies": [
+    {
+      "name": "San-yo Railways",
+      "abbrev": "SR",
+      "color": "yellow",
+      "tokens": "four"
+    },
+    {
+      "name": "Tomo Railway",
+      "abbrev": "TR",
+      "color": "natural",
+      "tokens": "two"
+    },
+    {
+      "name": "Ryobi Railway",
+      "abbrev": "RR",
+      "color": "purple",
+      "tokens": "three"
+    },
+    {
+      "name": "Ikasa Railways",
+      "abbrev": "IR",
+      "color": "green",
+      "tokens": "three"
+    },
+    {
+      "name": "Onomichi Railway",
+      "abbrev": "OR",
+      "color": "lightBrown",
+      "tokens": "two"
+    },
+    {
+      "name": "Geinan Electric Tramline",
+      "abbrev": "GET",
+      "color": "brown",
+      "tokens": "two"
+    },
+    {
+      "name": "Ministry of Construction Railroad",
+      "abbrev": "MoCR",
+      "color": "black",
+      "tokens": "three"
+    },
+    {
+      "name": "Geibi Railway",
+      "abbrev": "GR",
+      "color": "lightGreen",
+      "tokens": "four"
+    },
+    {
+      "name": "Kouhin Railway",
+      "abbrev": "KR",
+      "color": "orange",
+      "tokens": "three"
+    },
+    {
+      "name": "Hiroshima Electric Railway",
+      "abbrev": "HER",
+      "color": "red",
+      "tokens": "one"
+    },
+    {
+      "name": "Hiroshima Rapid Transit",
+      "abbrev": "HRT",
+      "color": "blue",
+      "tokens": "two"
+    },
+    {
+      "name": "Iwakuni Electric Tramline",
+      "abbrev": "IET",
+      "color": "pink",
+      "tokens": "two"
+    },
+    {
+      "name": "Japanese National Railways",
+      "abbrev": "JNR",
+      "color": "gray",
+      "tokens": "national",
+      "shares": "jnr"
+    }
+  ],
+  "shareTypes": {
+    "default": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": 20,
+        "shares": 2
+      },
+      {
+        "quantity": 8,
+        "percent": 10,
+        "shares": 1
+      }
+    ],
+    "jnr": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": 20,
+        "shares": 2
+      },
+      {
+        "quantity": 28,
+        "percent": 10,
+        "shares": 1
+      }
+    ]
+  },
+  "tokenTypes": {
+    "one": ["Home"],
+    "two": ["Home", 40],
+    "three": ["Home", 40, 100],
+    "four": ["Home", 40, 100, 100],
+    "national": ["¥100 x 12"]
+  },
+  "tiles": {
+    "1": 1,
+    "2": 1,
+    "3": 3,
+    "4": 5,
+    "5": 2,
+    "6": 4,
+    "7": 7,
+    "8": 19,
+    "9": 13,
+    "14": 5,
+    "15": 6,
+    "16": 2,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "23": 4,
+    "24": 4,
+    "25": 2,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "39": 1,
+    "40": 1,
+    "41": 1,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 2,
+    "46": 2,
+    "47": 2,
+    "55": 1,
+    "56": 1,
+    "57": 5,
+    "58": 5,
+    "59": 2,
+    "63": 4,
+    "64": 1,
+    "65": 1,
+    "66": 1,
+    "67": 1,
+    "68": 1,
+    "69": 1,
+    "70": 1,
+    "202": 1,
+    "611": 4,
+    "622": 2,
+    "623": 1,
+    "H902": {
+      "color": "green",
+      "labels": [
+        {
+          "label": "H",
+          "angle": 75,
+          "percent": 0.85
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 105,
+          "percent": 0.85
+        }
+      ],
+      "cities": [
+        {
+          "size": 2,
+          "angle": 90,
+          "percent": 0.3,
+          "rotate": 90
+        },
+        {
+          "size": 2,
+          "angle": 270,
+          "percent": 0.5,
+          "rotate": 90
+        }
+      ],
+      "track": [
+        {
+          "side": 1,
+          "type": "sharp",
+          "end": 0.5
+        },
+        {
+          "side": 3,
+          "type": "sharp",
+          "start": 0.5
+        },
+        {
+          "side": 5,
+          "type": "straight",
+          "end": 0.125
+        },
+        {
+          "side": 6,
+          "type": "straight",
+          "end": 0.125
+        }
+      ]
+    },
+    "H908": {
+      "color": "green",
+      "cities": [
+        {
+          "size": 2,
+          "name": {
+            "reverse": true,
+            "name": "Tomo"
+          },
+          "rotate": -90
+        }
+      ],
+      "values": [
+        {
+          "value": 30,
+          "angle": 90,
+          "percent": 0.8
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        }
+      ]
+    },
+    "H901": {
+      "color": "brown",
+      "labels": [
+        {
+          "label": "Y",
+          "percent": 0.7,
+          "angle": 180
+        }
+      ],
+      "cities": [
+        {
+          "size": 2,
+          "name": {
+            "name": "Kure"
+          }
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 330,
+          "percent": 0.8
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "H903": {
+      "color": "brown",
+      "labels": [
+        {
+          "label": "H",
+          "angle": 75,
+          "percent": 0.85
+        }
+      ],
+      "values": [
+        {
+          "value": 60,
+          "angle": 105,
+          "percent": 0.85
+        }
+      ],
+      "cities": [
+        {
+          "size": 2,
+          "angle": 90,
+          "percent": 0.3,
+          "rotate": 90
+        },
+        {
+          "size": 2,
+          "angle": 270,
+          "percent": 0.45,
+          "rotate": 90
+        }
+      ],
+      "track": [
+        {
+          "side": 1,
+          "type": "sharp",
+          "end": 0.5
+        },
+        {
+          "side": 3,
+          "type": "sharp",
+          "start": 0.5
+        },
+        {
+          "side": 5,
+          "type": "straight",
+          "end": 0.125
+        },
+        {
+          "side": 6,
+          "type": "straight",
+          "end": 0.125
+        }
+      ]
+    },
+    "H905": {
+      "quantity": 3,
+      "color": "brown",
+      "cities": [
+        {
+          "size": 2,
+          "rotate": -90
+        }
+      ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 90,
+          "percent": 0.8
+        }
+      ],
+      "track": [
+        {
+          "side": 1,
+          "type": "straight"
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        }
+      ]
+    },
+    "H904": {
+      "color": "gray",
+      "labels": [
+        {
+          "label": "H",
+          "angle": 90,
+          "percent": 0.9
+        }
+      ],
+      "values": [
+        {
+          "value": 80,
+          "angle": -90,
+          "percent": 0.9
+        }
+      ],
+      "names": [
+        {
+          "name": "Hiroshima",
+          "angle": 208,
+          "percent": 0.85,
+          "fontSize": 8
+        }
+      ],
+      "cities": [
+        {
+          "size": 4
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "H906": {
+      "color": "gray",
+      "values": [
+        {
+          "value": 40,
+          "angle": 215,
+          "percent": 0.85
+        }
+      ],
+      "names": [
+        {
+          "name": "Kaidaichi",
+          "angle": 332,
+          "percent": 0.82,
+          "fontSize": 8
+        }
+      ],
+      "cities": [
+        {
+          "size": 3
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "H907": {
+      "color": "gray",
+      "values": [
+        {
+          "value": 60,
+          "angle": 215,
+          "percent": 0.85
+        }
+      ],
+      "labels": [
+        {
+          "label": "Y",
+          "angle": 90,
+          "percent": 0.8
+        }
+      ],
+      "names": [
+        {
+          "name": "Fukuyama",
+          "angle": 332,
+          "percent": 0.82,
+          "fontSize": 8
+        }
+      ],
+      "cities": [
+        {
+          "size": 3
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    }
+  }
+}
