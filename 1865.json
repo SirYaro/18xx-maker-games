@@ -1,0 +1,1868 @@
+{
+  "info": {
+    "title": "1865: Sardinia",
+    "designer": " Alessandro Lala",
+    "publisher": "Gotha Games",
+    "background": "water",
+    "titleRotate": 0,
+    "titleSize": 100,
+    "titleX": 2000,
+    "titleY": 25,
+    "subtitleSize": 18,
+    "designerSize": 13,
+    "currency": "₤#"
+  },
+  "links": {
+    "bgg": "https://boardgamegeek.com/boardgame/87907/1865-sardinia",
+    "rules": "https://boardgamegeek.com/filepage/70639/official-rules-english"
+  },
+  "tokens": [
+    "Round",
+    "10",
+    "50",
+    "100",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "M7",
+    "M8"
+  ],
+  "ipo": false,
+  "bank": 8000,
+  "players": [
+    {
+      "number": 2,
+      "certLimit": 36,
+      "capital": 360
+    },
+    {
+      "number": 3,
+      "certLimit": 24,
+      "capital": 330
+    },
+    {
+      "number": 4,
+      "certLimit": 18,
+      "capital": 300
+    }
+  ],
+  "shareTypes": {
+    "default": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": "40/20",
+        "shares": 2
+      },
+      {
+        "quantity": 3,
+        "percent": "20/10",
+        "shares": 1
+    },
+    {
+      "quantity": 5,
+      "percent": "10",
+      "shares": 1
+    }
+    ],
+    "minor": []
+  },
+  "tokenTypes": {
+    "default": ["Home", "Minor", "Minor", "2+", "3+", "4+", "5+"]
+  },
+  "companies": [
+    {
+      "name": "Ferrovie Meidionali Sarde",
+      "abbrev": "FMS",
+      "color": "red"
+    },
+    {
+      "name": "Regia Compagnia delle Ferrovie della Sardegna",
+      "abbrev": "RCSF",
+      "color": "green"
+    },
+    {
+      "name": "Strade Ferrate Settentrionali Sarde",
+      "abbrev": "SFSS",
+      "color": "blue"
+    },
+    {
+      "name": "Ferrovie Complementari di Sardegna",
+      "abbrev": "FCS",
+      "color": "brown"
+    },
+    {
+      "name": "Societa' Italiana Strade Ferrate Secondarie della Sardegna",
+      "abbrev": "SFS",
+      "color": "orange"
+    },
+    {
+      "name": "Ferrovia degli Aranci",
+      "abbrev": "FA",
+      "color": "yellow"
+    },
+    {
+      "name": "Chemin de fer Corse",
+      "abbrev": "CFC",
+      "color": "grey"
+    },
+    {
+      "name": "Chemins de Fer Départementaux",
+      "abbrev": "CFD",
+      "color": "black"
+    }
+  ],
+  "trains": [
+    {
+      "name": "8",
+      "quantity": 5,
+      "price": 100,
+      "color": "yellow",
+      "rust": "20"
+    },
+    {
+      "name": "8",
+      "quantity": 1,
+      "price": 70,
+      "color": "yellow",
+      "rust": "20"
+    },
+    {
+      "name": "14",
+      "quantity": 4,
+      "price": 200,
+      "color": "green",
+      "rust": "30"
+    },
+    {
+      "name": "14",
+      "quantity": 1,
+      "price": 160,
+      "color": "green",
+      "rust": "30"
+    },
+    {
+      "name": "20",
+      "quantity": 3,
+      "price": 350,
+      "color": "green",
+      "rust": "35"
+    },
+    {
+      "name": "20",
+      "quantity": 1,
+      "price": 300,
+      "color": "green",
+      "rust": "35"
+    },
+    {
+      "name": "25",
+      "quantity": 2,
+      "price": 500,
+      "color": "brown"
+    },
+    {
+      "name": "30",
+      "quantity": 3,
+      "price": 650,
+      "color": "brown"
+    },
+    {
+      "name": "35",
+      "quantity": "∞",
+      "print": 8,
+      "price": 800,
+      "color": "grey"
+  },
+    {
+      "name": "8",
+      "quantity": 8,
+      "color": "yellow",
+      "description": "Does not count towards train limit. Does not count as owning a train. Cannot be sold between companies.",
+      "phase": false
+    }
+  ],
+  "privates": [
+    {
+      "id": "M1",
+      "name": "Compagnia Marittima Golfo Aranci ()",
+      "revenue": 20,
+      "icon": "port",
+      "description": "Can be assigned to a company at any time on its turn. Ceases paying revenue, but acts as a permanent 8-train. The owning company receives a one-time bonus of traffic chips equal to the current phase as soon as it has a token in Olbia ( )."
+  },
+  {
+    "id": "M2",
+    "name": "Compagnia Marittima Arbatax ()",
+    "revenue": 20,
+    "icon": "port",
+    "description": "Can be assigned to a company at any time on its turn. Ceases paying revenue, but acts as a permanent 8-train. The owning company receives a one-time bonus of traffic chips equal to the current phase as soon as it has a token in Arbatax ( )."
+},
+{
+  "id": "M3",
+  "name": "Compagnia Marittima Cagliari ()",
+  "revenue": 20,
+  "icon": "port",
+  "description": "Can be assigned to a company at any time on its turn. Ceases paying revenue, but acts as a permanent 8-train. The owning company receives a one-time bonus of traffic chips equal to the current phase as soon as it has a token in Cagliari ( )."
+},
+{
+  "id": "M4",
+  "name": "Compagnia Marittima Carbonia District ( , , and )",
+  "revenue": 20,
+  "icon": "port",
+  "description": "Can be assigned to a company at any time on its turn. Ceases paying revenue, but acts as a permanent 8-train. The owning company receives a one-time bonus of traffic chips equal to the current phase as soon as it has a token in Serbariu ( ), Monteponi ( ), or Su Zurfuru ( )."
+},
+{
+  "id": "M5",
+  "name": "Compagnia Marittima Oristano ()",
+  "revenue": 20,
+  "icon": "port",
+  "description": "Can be assigned to a company at any time on its turn. Ceases paying revenue, but acts as a permanent 8-train. The owning company receives a one-time bonus of traffic chips equal to the current phase as soon as it has a token in Oristano ( )."
+},
+{
+  "id": "M6",
+  "name": "Compagnia Marittima Sassari ()",
+  "revenue": 20,
+  "icon": "port",
+  "description": "Can be assigned to a company at any time on its turn. Ceases paying revenue, but acts as a permanent 8-train. The owning company receives a one-time bonus of traffic chips equal to the current phase as soon as it has a token in Sassari ( )."
+},
+{
+  "id": "M7",
+  "name": "Compagnia Marittima Ajaccio ()",
+  "revenue": 20,
+  "icon": "port",
+  "description": "Can be assigned to a company at any time on its turn. Ceases paying revenue, but acts as a permanent 8-train. The owning company receives a one-time bonus of traffic chips equal to the current phase as soon as it has a token in Ajaccio ( )."
+},
+{
+  "id": "M8",
+  "name": "Compagnia Marittima Calvi ()",
+  "revenue": 20,
+  "icon": "port",
+  "description": "Can be assigned to a company at any time on its turn. Ceases paying revenue, but acts as a permanent 8-train. The owning company receives a one-time bonus of traffic chips equal to the current phase as soon as it has a token in Calvi ( )."
+}
+  ],
+  "phases": [
+    {
+      "name": "2",
+      "train": ["8"],
+      "limit": 4,
+      "tiles": "yellow",
+      "notes": "All companies start as Minor. Minor Companies can convert to Major. Maritime companies can be transferred."
+    },
+    {
+      "name": "3",
+      "train": "14",
+      "limit": 3,
+      "tiles": "green",
+      "notes": "Mines upgrade at the start of each SR."
+    },
+    {
+      "name": "4",
+      "train": "20",
+      "limit": 3,
+      "tiles": "green"
+    },
+    {
+      "name": "5",
+      "train": "25",
+      "limit": 3,
+      "tiles": "brown",
+      "notes": "Maritime companies owned by players are discarded. All companies start as Major. Mines upgrade at the start of each SR."
+    },
+    {
+      "name": "6",
+      "train": "30",
+      "limit": 2,
+      "tiles": "brown"
+    },
+    {
+      "name": "7",
+      "train": "35",
+      "limit": 2,
+      "tiles": "grey"
+    }
+  ],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "Shares in the market pay dividends to the bank (i.e., are lost)"
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "name": "OR2",
+      "color": "water"
+    },
+    {
+      "name": "OR1",
+      "color": "water"
+    },
+    {
+      "name": "SR",
+      "color": "red"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": ["Dragon Turn", "Sell any number of shares", "Buy one share"],
+      "ordered": true
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+        "Lay or upgrade track",
+        "Operate mines",
+        "Purchase a station",
+        "Run trains",
+        "Pay dividends or withold revenue",
+        "Purchase trains"
+      ],
+      "ordered": true
+    }
+  ],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "stock": {
+    "title": false,
+    "type": "1D",
+    "market": [
+      {
+        "value": 10,
+        "height": 0.6
+      },
+      {
+        "value": 20,
+        "height": 0.6
+      },
+      {
+        "value": 30,
+        "height": 0.6
+      },
+      {
+        "value": 40,
+        "height": 0.6
+      },
+      {
+        "value": 50,
+        "height": 0.6
+      },
+      {
+        "color": "yellow",
+        "value": 60
+      },
+      {
+        "color": "yellow",
+        "value": 70
+      },
+      {
+        "color": "yellow",
+        "value": 80
+      },
+      {
+        "color": "yellow",
+        "value": 90
+      },
+      {
+        "color": "yellow",
+        "value": 100
+      },
+      {
+        "color": "green",
+        "value": 110
+      },
+      {
+        "color": "green",
+        "value": 120
+      },
+      {
+        "color": "green",
+        "value": 130
+      },
+      {
+        "color": "brown",
+        "value": 140
+      },
+      {
+        "color": "brown",
+        "value": 150
+      },
+      {
+        "value": 165,
+        "height": 0.6
+      },
+      {
+        "value": 180,
+        "height": 0.6
+      },
+      {
+        "value": 195,
+        "height": 0.6
+      },
+      {
+        "value": 210,
+        "height": 0.6
+      },
+      {
+        "value": 230,
+        "height": 0.6
+      },
+      {
+        "value": 250,
+        "height": 0.6
+      },
+      {
+        "value": 270,
+        "height": 0.6
+      },
+      {
+        "value": 290,
+        "height": 0.6
+      },
+      {
+        "value": 310,
+        "height": 0.6
+      },
+      {
+        "value": 335,
+        "height": 0.6
+      },
+      {
+        "value": 360,
+        "height": 0.6
+      },
+      {
+        "value": 385,
+        "height": 0.6
+      },
+      {
+        "value": 410,
+        "height": 0.6
+      },
+      {
+        "value": 435,
+        "height": 0.6
+      },
+      {
+        "value": 460,
+        "height": 0.6
+      },
+      {
+        "value": 490,
+        "height": 0.6
+      }
+    ]
+  },
+  "tiles": {
+    "3": 5,
+    "4": 9,
+    "5": 2,
+    "6": 2,
+    "7": 5,
+    "8": 14,
+    "9": 14,
+    "57": 2,
+    "58": 11,
+
+    "14": 1,
+    "15": 4,
+    "619": 1,
+    "87": 9,
+    "88": 5,
+    "204": 5,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "80": 2,
+    "81": 1,
+    "82": 5,
+    "83": 5,
+
+    "146": 5,
+
+    "173S": {
+      "color": "yellow",
+      "quantity": 8,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "rotate": 180
+        }
+      ],
+      "values": [
+        {
+          "angle": 160,
+          "percent": 0.65,
+          "value": "20/OR"
+        }
+      ],
+      "icons": [
+          {
+            "type": "coal",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
+      "track": [
+        {
+          "side": 1
+        }
+      ]
+    },
+
+    "174S": {
+      "color": "green",
+      "quantity": 8,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "rotate": 180
+        }
+      ],
+      "values": [
+        {
+          "angle": 160,
+          "percent": 0.65,
+          "value": "10/OR"
+        }
+      ],
+      "icons": [
+          {
+            "type": "coal",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
+      "track": [
+        {
+          "side": 1
+        }
+      ]
+    },
+
+    "175S": {
+      "color": "brown",
+      "quantity": 8,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "rotate": 180
+        }
+      ],
+      "values": [
+        {
+          "angle": 150,
+          "percent": 0.7,
+          "value": "0"
+        }
+      ],
+      "icons": [
+          {
+            "type": "coal",
+            "angle": 270,
+            "percent": 0.7
+          }
+        ],
+      "track": [
+        {
+          "side": 1
+        }
+      ]
+    },
+
+    "63S": {
+      "color": "brown",
+      "quantity": 3,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 3,
+          "rotate": 180
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.83,
+          "value": 40
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+
+    "700S": {
+      "color": "brown",
+      "quantity": 2,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 3,
+          "rotate": 180
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.83,
+          "value": 40
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        }
+
+      ]
+    },
+
+    "NSP1": {
+      "color": "green",
+      "quantity": 3,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 3,
+          "rotate": 330
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.91,
+          "value": 40
+        }
+      ],
+      "labels": [
+        {
+          "angle": 180,
+          "percent": 0.8,
+          "label": "NSP"
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+
+    "CO1": {
+      "color": "green",
+      "quantity": 2,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 3,
+          "rotate": 330
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.91,
+          "value": 40
+        }
+      ],
+      "labels": [
+        {
+          "angle": 208,
+          "percent": 0.87,
+          "label": "CO"
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+      }
+      ]
+    },
+
+    "B1": {
+      "color": "green",
+      "quantity": 1,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 3,
+          "rotate": 330
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.91,
+          "value": 40
+        }
+      ],
+      "labels": [
+        {
+          "angle": 208,
+          "percent": 0.9,
+          "label": "B"
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+      }
+      ]
+    },
+
+    "NSP2": {
+      "color": "brown",
+      "quantity": 3,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 4,
+          "rotate": 180
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.91,
+          "value": 50
+        }
+      ],
+      "labels": [
+        {
+          "angle": 203,
+          "percent": 0.93,
+          "label": "NSP"
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+      },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+
+    "CO2": {
+      "color": "brown",
+      "quantity": 2,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 4,
+          "rotate": 180
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.91,
+          "value": 50
+        }
+      ],
+      "labels": [
+        {
+          "angle": 203,
+          "percent": 0.93,
+          "label": "CO"
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+      }
+      ]
+    },
+
+    "B2": {
+      "color": "brown",
+      "quantity": 1,
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 4,
+          "rotate": 180
+        }
+      ],
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.91,
+          "value": 50
+        }
+      ],
+      "labels": [
+        {
+          "angle": 203,
+          "percent": 0.93,
+          "label": "B"
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+      }
+      ]
+    },
+
+    "889": {
+      "color": "brown",
+      "quantity": 12,
+      "rotations": 1,
+
+        "centerTowns": [
+          {}
+      ],
+
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 20
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    }
+  },
+
+
+
+  "map": {
+    "hexes": [
+        {
+            "hexes": [
+                "A4", "A6", "A8", "A10", "A12", "A14", "A24", "A26", "A28", "A30", "A32", "A34", "A36", "A38", "A40",
+                "B3", "B25", "B27", "B29", "B31", "B33", "B35", "B37", "B39",
+                "C2", "C24", "C26", "C28", "C30","C32","C34","C36","C40",
+                "D3", "D25", "D27", "D41",
+                "E4", "E42",
+                "F5", "F25", "F27", "F29", "F41",
+                "G6", "G8", "G10", "G12", "G14","G16", "G24", "G26", "G28", "G30", "G32", "G34", "G36", "G38", "G40"
+            ],
+            "color": "water",
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "E26"
+            ],
+            "color": "water",
+            "terrain": [
+                {
+                    "cost": 30,
+                    "color": "white",
+                    "percent": 0.6,
+                    "angle": 180,
+                    "fontSize": 25
+                }
+            ],
+            "track": [
+                {
+                    "side": 1,
+                    "type": "straight",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "F27"
+            ],
+            "color": "water",
+            "terrain": [
+                {
+                    "cost": 60,
+                    "color": "white",
+                    "percent": 0.6,
+                    "angle": 180,
+                    "fontSize": 25
+                }
+            ],
+            "track": [
+                {
+                    "side": 1,
+                    "type": "straight",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "F29"
+            ],
+            "color": "water",
+            "track": [
+                {
+                    "side": 1,
+                    "type": "gentle",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "F25"
+            ],
+            "color": "water",
+            "track": [
+                {
+                    "side": 1,
+                    "type": "straight",
+                    "gauge": "narrow",
+                    "color": "water"
+                },
+                {
+                    "side": 4,
+                    "type": "gentle",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "G24"
+            ],
+            "color": "water",
+            "track": [
+                {
+                    "side": 2,
+                    "type": "sharp",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "B23"
+            ],
+            "color": "water",
+            "track": [
+                {
+                    "side": 5,
+                    "type": "gentle",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "C24"
+            ],
+            "color": "water",
+            "track": [
+                {
+                    "side": 2,
+                    "type": "gentle",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "C34"
+            ],
+            "color": "water",
+            "track": [
+                {
+                    "side": 6,
+                    "type": "sharp",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "C28", "C30"
+            ],
+            "color": "water",
+            "track": [
+                {
+                    "side": 1,
+                    "type": "straight",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "C26"
+            ],
+            "color": "water",
+            "terrain": [
+                {
+                    "cost": 80,
+                    "color": "white",
+                    "percent": 0.6,
+                    "angle": 180,
+                    "fontSize": 25
+                }
+            ],
+            "track": [
+                {
+                    "side": 1,
+                    "type": "straight",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "C32"
+            ],
+            "color": "water",
+            "track": [
+                {
+                    "side": 5,
+                    "type": "gentle",
+                    "gauge": "narrow",
+                    "color": "water"
+                },
+                {
+                    "side": 1,
+                    "type": "straight",
+                    "gauge": "narrow",
+                    "color": "water"
+                }
+            ],
+            "removeBorders": [1,2,3,4,5,6]
+        },
+
+        {
+            "hexes": [
+                "A16",
+                "B11", "B15", "B19",
+                "C4", "C6", "C8", "C14", "C18", "C22", "C38",
+                "D5", "D9", "D13", "D19", "D21", "D29", "D35", "D37",
+                "E8", "E12", "E18", "E20", "E24", "E34",
+                "F7", "F11", "F15", "F17", "F19", "F21", "F31", "F35",
+                "G18", "G20", "G22"
+            ],
+            "color": "plain"
+        },
+
+        {
+            "hexes": [
+                "A18", "A22",
+                "B17",
+                "C10", "C12", "C16", "C20",
+                "D7", "D15", "D17", "D23", "D31",
+                "E10", "E22", "E28", "E36", "E38",
+                "F33", "F37"
+            ],
+            "centerTowns": [
+                {}
+            ]
+        },
+
+        {
+            "hexes": [
+                "A20",
+                "B7", "B9",
+                "E40",
+                "E14", "E32",
+                "F9"
+            ],
+            "color": "mountain",
+            "quantity": 8,
+            "rotations": 1,
+            "cities": [
+              {
+                "size": 1,
+                "rotate": 180
+              }
+          ],
+            "icons": [
+                {
+                  "type": "coal",
+                  "angle": 300,
+                  "percent": 0.7
+                }
+            ]
+        },
+
+        {
+            "hexes": [
+                "B5"
+            ],
+            "color": "mountain",
+            "quantity": 8,
+            "rotations": 1,
+            "cities": [
+              {
+                "size": 1,
+                "rotate": 180
+              }
+          ],
+          "tokens": [
+            {
+                "angle": 60,
+                "percent": 0.7,
+                "company": "FMS",
+                "destination": true
+            }
+          ],
+            "icons": [
+                {
+                  "type": "coal",
+                  "angle": 300,
+                  "percent": 0.7
+                }
+            ]
+        },
+
+        {
+            "hexes": ["F39"],
+            "color": "yellow",
+            "cities": [
+                {
+                    "size": 2,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Bastia",
+                      "offset": 70
+                  },
+                    "companies": [
+                      "CFC"
+                    ]
+                }
+            ],
+            "values": [
+                {
+                    "value": 30,
+                    "percent": 0.78,
+                    "angle": 0
+                }
+            ],
+            "tokens": [
+              {
+                  "angle": 300,
+                  "percent": 0.85,
+                  "company": "CFD",
+                  "destination": true
+              }
+            ],
+            "labels": [
+              {
+                "angle": 180,
+                "percent": 0.78,
+                "label": "B"
+              }
+            ],
+            "track": [
+
+              {
+                "side": 1
+              },
+              {
+                "side": 2
+              },
+              {
+                "side": 3
+              }
+            ]
+        },
+
+        {
+            "hexes": ["E16"],
+            "color": "yellow",
+            "cities": [
+                {
+                    "size": 2,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Nuoro",
+                      "offset": 70
+                  },
+                    "companies": [
+                      "FA"
+                    ]
+                }
+            ],
+            "values": [
+                {
+                    "value": 30,
+                    "percent": 0.78,
+                    "angle": 0
+                }
+            ],
+            "tokens": [
+              {
+                  "angle": 300,
+                  "percent": 0.85,
+                  "company": "FCS",
+                  "destination": true
+              }
+            ],
+            "labels": [
+              {
+                "angle": 180,
+                "percent": 0.78,
+                "label": "N"
+              }
+            ],
+            "track": [
+
+              {
+                "side": 1
+              },
+              {
+                "side": 2
+              },
+              {
+                "side": 3
+              },
+              {
+                "side": 5
+              },
+              {
+                "side": 6
+              }
+            ]
+        },
+
+        {
+            "hexes": ["B21"],
+            "color": "yellow",
+            "cities": [
+                {
+                    "size": 2,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Sassari",
+                      "offset": 70
+                  },
+                    "companies": [
+                      "SFSS"
+                    ]
+                }
+            ],
+            "values": [
+                {
+                    "value": 30,
+                    "percent": 0.78,
+                    "angle": 0
+                }
+            ],
+            "labels": [
+              {
+                "angle": 180,
+                "percent": 0.78,
+                "label": "S"
+              }
+            ],
+            "track": [
+              {
+                "side": 2
+              },
+              {
+                "side": 3
+              },
+              {
+                "side": 5
+              },
+              {
+                "side": 6
+              }
+            ]
+        },
+
+        {
+            "hexes": ["D33"],
+            "color": "plain",
+            "cities": [
+                {
+                    "size": 1,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Ajaccio"
+                    }
+                }
+            ],
+            "tokens": [
+              {
+                  "angle": 300,
+                  "percent": 0.7,
+                  "company": "CFC",
+                  "destination": true
+              }
+            ]
+        },
+
+        {
+            "hexes": ["F23"],
+            "color": "plain",
+            "cities": [
+                {
+                    "size": 1,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Olbia"
+                    }
+                }
+            ],
+            "tokens": [
+              {
+                  "angle": 180,
+                  "percent": 0.8,
+                  "company": "SFSS",
+                  "destination": true
+              },
+              {
+                  "angle": 90,
+                  "percent": 0.65,
+                  "company": "FA",
+                  "destination": true
+              }
+            ]
+        },
+
+        {
+            "hexes": ["D39"],
+            "color": "plain",
+            "cities": [
+                {
+                    "size": 1,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Calvi"
+                    }
+                }
+            ]
+        },
+
+        {
+            "hexes": ["E6"],
+            "color": "yellow",
+            "cities": [
+                {
+                    "size": 2,
+                    "rotation": 60,
+                    "name": {
+                      "name": "Cagliari",
+                      "rotation": 180
+                  },
+                    "companies": [
+                      "FMS"
+                    ]
+                }
+            ],
+            "values": [
+                {
+                    "value": 30,
+                    "percent": 0.78,
+                    "angle": 15
+                }
+            ],
+            "tokens": [
+              {
+                  "angle": 300,
+                  "percent": 0.85,
+                  "company": "SFS",
+                  "destination": true
+              },
+              {
+                  "angle": 240,
+                  "percent": 0.8,
+                  "company": "RCSF",
+                  "destination": true
+              }
+            ],
+            "labels": [
+              {
+                "angle": 105,
+                "percent": 0.78,
+                "label": "C"
+              }
+            ],
+            "track": [
+
+              {
+                "side": 2
+              },
+              {
+                "side": 3
+              },
+              {
+                "side": 4
+              },
+              {
+                "side": 5
+              }
+            ]
+        },
+
+        {
+            "hexes": ["E6"],
+            "color": "yellow",
+            "cities": [
+                {
+                    "size": 2,
+                    "rotation": 60,
+                    "name": {
+                      "name": "Cagliari",
+                      "rotation": 180
+                  },
+                    "companies": [
+                      "FMS"
+                    ]
+                }
+            ],
+            "values": [
+                {
+                    "value": 30,
+                    "percent": 0.78,
+                    "angle": 15
+                }
+            ],
+            "tokens": [
+              {
+                  "angle": 300,
+                  "percent": 0.85,
+                  "company": "SFS",
+                  "destination": true
+              },
+              {
+                  "angle": 240,
+                  "percent": 0.8,
+                  "company": "RCSF",
+                  "destination": true
+              }
+            ],
+            "labels": [
+              {
+                "angle": 105,
+                "percent": 0.78,
+                "label": "C"
+              }
+            ],
+            "track": [
+
+              {
+                "side": 2
+              },
+              {
+                "side": 3
+              },
+              {
+                "side": 4
+              },
+              {
+                "side": 5
+              }
+            ]
+        },
+
+        {
+            "hexes": ["B13"],
+            "color": "yellow",
+            "cities": [
+                {
+                    "size": 2,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Oristano",
+                      "rotation": 0
+                  },
+                    "companies": [
+                      "RCSF"
+                    ]
+                }
+            ],
+            "values": [
+                {
+                    "value": 30,
+                    "percent": 0.78,
+                    "angle": 0
+                }
+            ],
+            "labels": [
+              {
+                "angle": 180,
+                "percent": 0.78,
+                "label": "O"
+              }
+            ],
+            "track": [
+
+              {
+                "side": 1
+              },
+              {
+                "side": 4
+              },
+              {
+                "side": 6
+              }
+            ]
+        },
+
+        {
+            "hexes": ["E30"],
+            "color": "yellow",
+            "cities": [
+                {
+                    "size": 2,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Porto Vecchio",
+                      "rotation": 0
+                  },
+                    "companies": [
+                      "CFD"
+                    ]
+                }
+            ],
+            "values": [
+                {
+                    "value": 30,
+                    "percent": 0.78,
+                    "angle": 0
+                }
+            ],
+            "labels": [
+              {
+                "angle": 180,
+                "percent": 0.78,
+                "label": "P"
+              }
+            ],
+            "track": [
+
+              {
+                "side": 1
+              },
+              {
+                "side": 4
+              },
+              {
+                "side": 5
+              }
+            ]
+        },
+
+        {
+            "hexes": ["D11"],
+            "color": "plain",
+            "cities": [
+                {
+                    "size": 1,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Isili",
+                      "rotation": 0
+                  },
+                    "companies": [
+                      "FCS"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "hexes": ["F13"],
+            "color": "plain",
+            "cities": [
+                {
+                    "size": 1,
+                    "rotation": 0,
+                    "name": {
+                      "name": "Arbatax",
+                      "rotation": 0
+                  },
+                    "companies": [
+                      "SFS"
+                    ]
+                }
+            ]
+        }
+
+    ],
+
+
+    "borders": [
+      {
+        "color": "blue",
+        "coords": ["D5p1", "D5p6", "D7p1", "D7p6"]
+      },
+      {
+        "color": "blue",
+        "coords": ["D9p1", "D9p2", "D9p3", "D9p4", "D9p5"]
+      },
+      {
+        "color": "blue",
+        "coords": ["F11p2", "F11p3", "E12p2", "E12p3", "E12p4", "E12p5"]
+        },
+      {
+        "color": "blue",
+        "coords": ["B15p3", "B15p2", "B15p1", "C16p2", "C16p1","D17p3", "D17p2", "D17p1", "E18p2", "D17p1","D17p6","D19p2","D19p1","D19p6","D19p5","D19p4"]
+    },
+      {
+        "color": "blue",
+        "coords": ["C22p6", "C22p1", "C22p2", "C20p1", "C20p2","C20p3","B19p2"]
+    },
+    {
+      "color": "blue",
+      "coords": ["B19p3", "B19p4", "B19p5", "B21p4", "B21p5"]
+  },
+    {
+      "color": "blue",
+      "coords": ["D23p6", "D23p1", "D23p2", "D21p1", "D21p2"]
+  },
+  {
+    "color": "blue",
+    "coords": ["E20p3", "E20p2"]
+},
+{
+  "color": "blue",
+  "coords": ["G18p6", "G18p5", "F19p2", "F19p3"]
+},
+{
+  "color": "blue",
+  "coords": ["D31p1", "D31p2"]
+},
+{
+  "color": "blue",
+  "coords": ["D33p3", "D33p2", "D33p1", "E34p2"]
+},
+{
+  "color": "blue",
+  "coords": ["F35p6", "F35p5"]
+},
+
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["B5p2", "B5p1", "B5p6", "B7p1", "B7p6", "B9p1", "B9p6", "B9p5"]
+},
+
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["F9p2", "F9p3", "E10p2", "E10p3", "D11p2", "D11p3", "C12p2", "C12p3","C12p4"]
+},
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["E14p4", "E14p5", "E14p6", "E14p1", "E14p2", "E14p3", "E14p4", "D15p3","D15p4","D15p5","D17p4","D17p5"]
+},
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["B17p1", "B17p6", "B17p5"]
+},
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["A20p3", "A20p2", "A20p1"]
+},
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["F19p3", "F19p4", "F19p5"]
+},
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["E22p3", "E22p2", "E22p1"]
+},
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["E32p3", "E32p2", "E32p1","E32p6","E34p1","E34p6"]
+},
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["E36p6", "E36p1", "E36p2", "E36p3", "E36p4"]
+},
+{
+  "color": "orange",
+  "dashed": true,
+  "coords": ["D37p3", "D37p2", "D37p1", "D37p6"]
+}
+
+    ],
+
+    "roundTracker": {
+      "x": 50,
+      "y": 800
+    },
+    "players": {
+      "x": 1944,
+      "y": 780
+    }
+  }
+}
