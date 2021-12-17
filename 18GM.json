@@ -301,7 +301,7 @@
       ],
       "labels": [
         {
-          "label": "New York",
+          "label": "NY",
           "angle": 0,
           "percent": 0.7
         }
@@ -442,6 +442,13 @@
           "percent": 0.7
         }
       ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 30,
+          "percent": 0.7
+        }
+      ],
       "track": [
         {
           "side": 6
@@ -451,6 +458,255 @@
         },
         {
           "side": 2
+        }
+      ]
+    },
+    "GM051": {
+      "color": "green",
+      "cities": [
+        {
+          "angle": 60,
+          "percent": 0.5
+        },
+        {
+          "angle": 180,
+          "percent": 0.5
+        },
+        {
+          "angle": 300,
+          "percent": 0.5
+        }
+      ],
+      "labels": [
+        {
+          "label": "London",
+          "angle": 0,
+          "percent": 0.7,
+          "fontSize": 14
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 120,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 2,
+          "type": "straight",
+          "end": 0.25
+        },
+        {
+          "side": 4,
+          "type": "straight",
+          "end": 0.25
+        },
+        {
+          "side": 6,
+          "type": "straight",
+          "end": 0.25
+        }
+      ]
+    },
+    "GM052": {
+      "color": "green",
+      "cities": [{}],
+      "labels": [
+        {
+          "label": "Boston",
+          "angle": 180,
+          "percent": 0.7
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 55,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "GM053": {
+      "color": "green",
+      "cities": [
+        {
+          "angle": 60,
+          "percent": 0.5
+        },
+        {
+          "angle": 180,
+          "percent": 0.5
+        },
+        {
+          "angle": 300,
+          "percent": 0.5
+        }
+      ],
+      "labels": [
+        {
+          "label": "Manchester",
+          "angle": 0,
+          "fontSize": 14,
+          "percent": 0.7
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 120,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 2,
+          "type": "straight",
+          "end": 0.25
+        },
+        {
+          "side": 4,
+          "type": "straight",
+          "end": 0.25
+        },
+        {
+          "side": 6,
+          "type": "straight",
+          "end": 0.25
+        }
+      ]
+    },
+    "GM054": {
+      "color": "green",
+      "cities": [
+        {
+          "angle": 60,
+          "percent": 0.5
+        },
+        {
+          "angle": 180,
+          "percent": 0.5
+        },
+        {
+          "angle": 300,
+          "percent": 0.5
+        }
+      ],
+      "labels": [
+        {
+          "label": "Chicago",
+          "angle": 0,
+          "fontSize": 14,
+          "percent": 0.7
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 120,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 2,
+          "type": "straight",
+          "end": 0.25
+        },
+        {
+          "side": 4,
+          "type": "straight",
+          "end": 0.25
+        },
+        {
+          "side": 6,
+          "type": "straight",
+          "end": 0.25
+        }
+      ]
+    },
+    "GM055": {
+      "color": "green",
+      "cities": [{}],
+      "labels": [
+        {
+          "label": "Denver",
+          "angle": 240,
+          "percent": 0.7,
+          "fontSize": 14,
+          "rotate": 60
+        }
+      ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 30,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 6
+        },
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 4
+        }
+      ]
+    },
+    "GM056": {
+      "color": "green",
+      "cities": [{}],
+      "labels": [
+        {
+          "label": "Baltimore",
+          "angle": 180,
+          "percent": 0.7
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 55,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "GM057": {
+      "color": "green",
+      "labels": [
+        {
+          "label": "Hamilton",
+          "angle": 180,
+          "percent": 0.7
         }
       ]
     }
