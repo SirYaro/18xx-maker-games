@@ -193,6 +193,210 @@
         }
       ]
     },
+    "GM021": {
+      "color": "yellow",
+      "quantity": 2,
+      "cities": [
+        {
+          "angle": 90,
+          "percent": 0.6
+        },
+        {
+          "angle": 270,
+          "percent": 0.6
+        }
+      ],
+      "track": [
+        {
+          "color": "water",
+          "path": "m 0,-91 c 0.10074196,14.70928 9.1197261,32.384906 -12.837546,25.238234 -6.656128,0.598963 -7.768686,9.265825 -5.737415,18.990847 6.277363,10.790902 14.7138996,12.485101 16.7650806,23.794809 C 0.84160857,-12.908899 10.534429,-8.6557132 7.263367,-1.9474669 3.029655,10.418783 17.846259,7.1336997 8.37036,23.674814 5.323978,32.779103 -4.3920443,24.94665 -9.8945121,46.133349 -7.8969087,51.886255 -12.131441,55.642067 -10.82106,60.349575 -9.8422674,70.480202 0.78338577,56.206705 0,91",
+          "type": "custom"
+        }
+      ],
+      "labels": [
+        {
+          "label": "OO",
+          "angle": 210,
+          "percent": 0.7
+        }
+      ]
+    },
+    "GM022": {
+      "color": "yellow",
+      "quantity": 4,
+      "cities": [
+        {
+          "angle": 90,
+          "percent": 0.5
+        },
+        {
+          "angle": 270,
+          "percent": 0.5
+        }
+      ],
+      "labels": [
+        {
+          "label": "OO"
+        }
+      ]
+    },
+    "GM023": {
+      "color": "yellow",
+      "quantity": 4,
+      "cities": [
+        {
+          "angle": 90,
+          "percent": 0.5
+        },
+        {
+          "angle": 270,
+          "percent": 0.5
+        }
+      ]
+    },
+    "GM024": {
+      "color": "yellow",
+      "cities": [{}],
+      "values": [
+        {
+          "value": 30,
+          "angle": 90,
+          "percent": 0.7
+        }
+      ],
+      "labels": [
+        {
+          "label": "Baltimore",
+          "angle": 180,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "GM025": {
+      "color": "yellow",
+      "cities": [
+        {
+          "angle": 60,
+          "percent": 0.5
+        },
+        {
+          "angle": 240,
+          "percent": 0.5
+        }
+      ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 120,
+          "percent": 0.7
+        }
+      ],
+      "labels": [
+        {
+          "label": "New York",
+          "angle": 0,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 2,
+          "type": "straight",
+          "end": 0.25
+        },
+        {
+          "side": 5,
+          "type": "straight",
+          "end": 0.25
+        }
+      ]
+    },
+    "GM026": {
+      "color": "yellow",
+      "cities": [{}],
+      "values": [
+        {
+          "value": 30,
+          "angle": 90,
+          "percent": 0.7
+        }
+      ],
+      "labels": [
+        {
+          "label": "Denver",
+          "angle": 180,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "GM027": {
+      "color": "yellow",
+      "cities": [{}],
+      "values": [
+        {
+          "value": 30,
+          "angle": 90,
+          "percent": 0.7
+        }
+      ],
+      "labels": [
+        {
+          "label": "Vancouver",
+          "angle": 180,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "GM028": {
+      "color": "yellow",
+      "cities": [{}],
+      "values": [
+        {
+          "value": 30,
+          "angle": 90,
+          "percent": 0.7
+        }
+      ],
+      "labels": [
+        {
+          "label": "Boston",
+          "angle": 180,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
     "26": 2,
     "27": 2,
     "28": 2,
