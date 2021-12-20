@@ -1278,6 +1278,465 @@
           "percent": -0.1
         }
       ]
+    },
+    "GM200": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "angle": 60,
+        "percent": 0.3,
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 30
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 50,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "gentle",
+          "side": 4
+        },
+        {
+          "type": "sharp",
+          "side": 4
+        },
+        {
+          "type": "sharp",
+          "side": 5
+        }
+      ]
+    },
+    "GM201": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 20
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 50,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 1
+        },
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM202": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 30
+          },
+          {
+            "color": "brown",
+            "cost": 40,
+            "phase": 5
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM203": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 20
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 50,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM204": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 40
+          },
+          {
+            "color": "brown",
+            "cost": 50,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 60,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM205": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 40
+          },
+          {
+            "color": "brown",
+            "cost": 40,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 70,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 1
+        },
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM206": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 40
+          },
+          {
+            "color": "brown",
+            "cost": 50,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 60,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM207": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 30
+          },
+          {
+            "color": "brown",
+            "cost": 50,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 60,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM208": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 20
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 50,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM209": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 40
+          },
+          {
+            "color": "brown",
+            "cost": 50,
+            "phase": 5
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM210": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 30
+          },
+          {
+            "color": "brown",
+            "cost": 50,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 40,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM211": {
+      "color": "offboard",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 30
+          },
+          {
+            "color": "brown",
+            "cost": 50,
+            "phase": 5
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM212|a": {
+      "color": "offboard",
+      "broken": true,
+      "group": "GM212",
+      "mask": false,
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 30
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 60,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM212|b": {
+      "color": "offboard",
+      "broken": true,
+      "group": "GM212",
+      "mask": false,
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
+    },
+    "GM213|a": {
+      "color": "offboard",
+      "broken": true,
+      "group": "GM213",
+      "mask": false,
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 20
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 50,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
+    },
+    "GM213|b": {
+      "color": "offboard",
+      "broken": true,
+      "group": "GM213",
+      "mask": false,
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
     }
   },
   "id": "18GM",
