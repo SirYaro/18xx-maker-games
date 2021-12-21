@@ -11,19 +11,23 @@
   "tiles": {
     "GM000": {
       "color": "gray",
-      "quantity": 8
+      "quantity": 8,
+      "noID": true
     },
     "GM001": {
       "color": "water",
-      "quantity": 8
+      "quantity": 8,
+      "noID": true
     },
     "GM002": {
       "cities": [{}],
-      "quantity": 16
+      "quantity": 16,
+      "noID": true
     },
     "GM003": {
       "centerTowns": [{}],
-      "quantity": 10
+      "quantity": 10,
+      "noID": true
     },
     "GM004": {
       "quantity": 6,
@@ -41,7 +45,8 @@
           "angle": 270,
           "precent": 0.4
         }
-      ]
+      ],
+      "noID": true
     },
     "GM005": {
       "quantity": 4,
@@ -59,7 +64,8 @@
           "angle": 270,
           "precent": 0.4
         }
-      ]
+      ],
+      "noID": true
     },
     "GM006": {
       "quantity": 2,
@@ -87,7 +93,8 @@
           "angle": 270,
           "precent": 0.4
         }
-      ]
+      ],
+      "noID": true
     },
     "GM007": {
       "quantity": 10,
@@ -95,7 +102,8 @@
         {
           "cost": 120
         }
-      ]
+      ],
+      "noID": true
     },
     "GM008": {
       "cities": [
@@ -118,7 +126,8 @@
           "angle": 270,
           "precent": 0.4
         }
-      ]
+      ],
+      "noID": true
     },
     "GM009": {
       "quantity": 2,
@@ -142,7 +151,8 @@
           "angle": 270,
           "precent": 0.4
         }
-      ]
+      ],
+      "noID": true
     },
     "GM010": {
       "quantity": 7,
@@ -155,7 +165,8 @@
           "angle": 270,
           "percent": 0.5
         }
-      ]
+      ],
+      "noID": true
     },
     "8": 20,
     "9": 20,
@@ -191,7 +202,8 @@
           "angle": 180,
           "percent": 0.7
         }
-      ]
+      ],
+      "noID": true
     },
     "GM021": {
       "color": "yellow",
@@ -219,7 +231,8 @@
           "angle": 210,
           "percent": 0.7
         }
-      ]
+      ],
+      "noID": true
     },
     "GM022": {
       "color": "yellow",
@@ -238,7 +251,8 @@
         {
           "label": "OO"
         }
-      ]
+      ],
+      "noID": true
     },
     "GM023": {
       "color": "yellow",
@@ -252,11 +266,13 @@
           "angle": 270,
           "percent": 0.5
         }
-      ]
+      ],
+      "noID": true
     },
-    "GM024": {
+    "GM21": {
       "color": "yellow",
       "cities": [{}],
+      "noID": true,
       "values": [
         {
           "value": 30,
@@ -280,8 +296,36 @@
         }
       ]
     },
+    "GM22": {
+      "color": "yellow",
+      "cities": [{}],
+      "noID": true,
+      "values": [
+        {
+          "value": 30,
+          "angle": 90,
+          "percent": 0.7
+        }
+      ],
+      "labels": [
+        {
+          "label": "Boston",
+          "angle": 180,
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
     "GM4": {
       "color": "yellow",
+      "noID": true,
       "cities": [
         {
           "angle": 60,
@@ -302,8 +346,8 @@
       "labels": [
         {
           "label": "NY",
-          "angle": 0,
-          "percent": 0.7
+          "angle": -45,
+          "percent": 0.5
         }
       ],
       "track": [
@@ -322,6 +366,7 @@
     "GM3": {
       "color": "yellow",
       "cities": [{}],
+      "noID": true,
       "values": [
         {
           "value": 30,
@@ -348,6 +393,7 @@
     "GM1": {
       "color": "yellow",
       "cities": [{}],
+      "noID": true,
       "values": [
         {
           "value": 30,
@@ -368,32 +414,6 @@
         },
         {
           "side": 6
-        }
-      ]
-    },
-    "GM028": {
-      "color": "yellow",
-      "cities": [{}],
-      "values": [
-        {
-          "value": 30,
-          "angle": 90,
-          "percent": 0.7
-        }
-      ],
-      "labels": [
-        {
-          "label": "Boston",
-          "angle": 180,
-          "percent": 0.7
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 5
         }
       ]
     },
@@ -435,6 +455,7 @@
     "GM050": {
       "color": "green",
       "cities": [{}],
+      "noID": true,
       "labels": [
         {
           "label": "Vancouver",
@@ -463,6 +484,7 @@
     },
     "GM051": {
       "color": "green",
+      "noID": true,
       "cities": [
         {
           "angle": 60,
@@ -513,6 +535,7 @@
     "GM052": {
       "color": "green",
       "cities": [{}],
+      "noID": true,
       "labels": [
         {
           "label": "Boston",
@@ -541,6 +564,7 @@
     },
     "GM5": {
       "color": "green",
+      "noID": true,
       "cities": [
         {
           "angle": 60,
@@ -590,6 +614,7 @@
     },
     "GM6": {
       "color": "green",
+      "noID": true,
       "cities": [
         {
           "angle": 60,
@@ -640,6 +665,7 @@
     "GM055": {
       "color": "green",
       "cities": [{}],
+      "noID": true,
       "labels": [
         {
           "label": "Denver",
@@ -671,9 +697,10 @@
         }
       ]
     },
-    "GM2": {
+    "GM056": {
       "color": "green",
       "cities": [{}],
+      "noID": true,
       "labels": [
         {
           "label": "Baltimore",
@@ -702,6 +729,7 @@
     },
     "GM057": {
       "color": "green",
+      "noID": true,
       "labels": [
         {
           "label": "Hamilton",
@@ -748,6 +776,7 @@
     "GM080": {
       "color": "brown",
       "cities": [{}],
+      "noID": true,
       "labels": [
         {
           "label": "Baltimore",
@@ -782,6 +811,7 @@
     "GM081": {
       "color": "brown",
       "cities": [{}],
+      "noID": true,
       "labels": [
         {
           "label": "Boston",
@@ -815,6 +845,7 @@
     },
     "GM082": {
       "color": "brown",
+      "noID": true,
       "cities": [
         {
           "size": 2
@@ -858,6 +889,7 @@
     "32": 1,
     "GM083": {
       "color": "brown",
+      "noID": true,
       "cities": [
         {
           "size": 2
@@ -891,6 +923,7 @@
     },
     "GM084": {
       "color": "brown",
+      "noID": true,
       "cities": [
         {
           "angle": 120,
@@ -1005,6 +1038,7 @@
     },
     "GM100": {
       "color": "gray",
+      "noID": true,
       "cities": [
         {
           "angle": 120,
@@ -1051,6 +1085,7 @@
     },
     "GM101": {
       "color": "gray",
+      "noID": true,
       "cities": [
         {
           "size": 2
@@ -1085,6 +1120,7 @@
     "GM102": {
       "color": "gray",
       "cities": [{}],
+      "noID": true,
       "labels": [
         {
           "label": "Boston",
@@ -1118,6 +1154,7 @@
     },
     "GM103": {
       "color": "gray",
+      "noID": true,
       "cities": [
         {
           "size": 2
@@ -1156,6 +1193,7 @@
     },
     "GM104": {
       "color": "gray",
+      "noID": true,
       "cities": [
         {
           "size": 2
@@ -1197,6 +1235,7 @@
     },
     "GM105": {
       "color": "gray",
+      "noID": true,
       "cities": [
         {
           "size": 3,
@@ -1240,6 +1279,7 @@
     "48": 1,
     "GM106": {
       "color": "gray",
+      "noID": true,
       "cities": [
         {
           "angle": 0,
@@ -1279,11 +1319,53 @@
         }
       ]
     },
+    "GM107": {
+      "color": "gray",
+      "noID": true,
+      "cities": [
+        {
+          "size": 4,
+          "rotate": 60
+        }
+      ],
+      "labels": [
+        {
+          "label": "NY",
+          "angle": 150,
+          "percent": 0.9,
+          "fontSize": 18
+        }
+      ],
+      "values": [
+        {
+          "value": 100,
+          "angle": -30,
+          "percent": 0.9,
+          "rotate": -30
+        }
+      ],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
     "GM200": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "angle": 60,
-        "percent": 0.3,
+        "percent": 0.35,
         "revenues": [
           {
             "color": "yellow",
@@ -1318,6 +1400,8 @@
     },
     "GM201": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1353,6 +1437,8 @@
     },
     "GM202": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1379,6 +1465,8 @@
     },
     "GM203": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1410,6 +1498,8 @@
     },
     "GM204": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1441,6 +1531,8 @@
     },
     "GM205": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1476,6 +1568,8 @@
     },
     "GM206": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1507,6 +1601,8 @@
     },
     "GM207": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1538,6 +1634,8 @@
     },
     "GM208": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1569,6 +1667,8 @@
     },
     "GM209": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1595,6 +1695,8 @@
     },
     "GM210": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1626,6 +1728,8 @@
     },
     "GM211": {
       "color": "offboard",
+      "noID": true,
+      "quantity": 4,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1653,6 +1757,7 @@
     "GM212|a": {
       "color": "offboard",
       "broken": true,
+      "noID": true,
       "group": "GM212",
       "mask": false,
       "offBoardRevenue": {
@@ -1687,6 +1792,7 @@
     "GM212|b": {
       "color": "offboard",
       "broken": true,
+      "noID": true,
       "group": "GM212",
       "mask": false,
       "track": [
