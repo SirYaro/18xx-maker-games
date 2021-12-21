@@ -431,13 +431,226 @@
     "46": 2,
     "47": 2,
     "70": 2,
-    "1": 1,
-    "55": 1,
-    "2": 1,
-    "56": 1,
-    "3": 3,
-    "4": 6,
-    "5": 4,
+    "1": {
+      "color": "yellow",
+      "values": [
+        {
+          "value": 10,
+          "angle": 120,
+          "percent": 0.667
+        },
+        {
+          "value": 10,
+          "angle": 300,
+          "percent": 0.667
+        }
+      ],
+      "centerTowns": [
+        {
+          "x": -129.90375,
+          "y": -75,
+          "rotation": 15,
+          "angle": 285,
+          "percent": 1.73
+        },
+        {
+          "x": 129.90375,
+          "y": 75,
+          "rotation": 15,
+          "angle": 105,
+          "percent": 1.73
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 2
+        },
+        {
+          "type": "gentle",
+          "side": 5
+        }
+      ]
+    },
+    "55": {
+      "color": "yellow",
+      "values": [
+        {
+          "value": 10,
+          "percent": 0.667,
+          "x": -35
+        },
+        {
+          "value": 10,
+          "angle": 205,
+          "percent": 0.8
+        }
+      ],
+      "centerTowns": [
+        {
+          "percent": 0.667
+        },
+        {
+          "angle": 240,
+          "percent": 0.667,
+          "rotation": 60
+        }
+      ],
+      "track": [
+        {
+          "type": "straight",
+          "side": 1,
+          "cross": "over"
+        },
+        {
+          "type": "straight",
+          "side": 2,
+          "cross": "under"
+        }
+      ]
+    },
+    "2": {
+      "color": "yellow",
+      "values": [
+        {
+          "angle": 320,
+          "percent": 0.667,
+          "value": 10
+        },
+        {
+          "angle": 145,
+          "percent": 0.667,
+          "value": 10
+        }
+      ],
+      "centerTowns": [
+        {
+          "percent": 0.667
+        },
+        {
+          "angle": 90,
+          "percent": 0.57735
+        }
+      ],
+      "track": [
+        {
+          "type": "straight",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 2
+        }
+      ]
+    },
+    "56": {
+      "color": "yellow",
+      "values": [
+        {
+          "x": -129.90375,
+          "y": 75,
+          "angle": 255,
+          "percent": 2.2,
+          "value": 10
+        },
+        {
+          "x": -129.90375,
+          "y": -75,
+          "angle": 285,
+          "percent": 2.2,
+          "value": 10
+        }
+      ],
+      "centerTowns": [
+        {
+          "x": -129.90375,
+          "y": 75,
+          "angle": 255,
+          "percent": 1.7216875,
+          "rotation": -15
+        },
+        {
+          "x": -129.90375,
+          "y": -75,
+          "angle": 285,
+          "percent": 1.7216875,
+          "rotation": 15
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 1,
+          "cross": "over"
+        },
+        {
+          "type": "gentle",
+          "side": 2,
+          "cross": "under"
+        }
+      ]
+    },
+    "3": {
+      "color": "yellow",
+      "quantity": 3,
+      "values": [
+        {
+          "value": 10
+        }
+      ],
+      "centerTowns": [
+        {
+          "angle": 30,
+          "percent": 0.57735,
+          "rotation": -60
+        }
+      ],
+      "track": [
+        {
+          "type": "sharp",
+          "side": 1
+        }
+      ]
+    },
+    "4": {
+      "color": "yellow",
+      "rotations": 3,
+      "quantity": 6,
+      "values": [
+        {
+          "x": 35,
+          "value": 10
+        }
+      ],
+      "centerTowns": [{}],
+      "track": [
+        {
+          "type": "straight",
+          "side": 1
+        }
+      ]
+    },
+    "5": {
+      "color": "yellow",
+      "quantity": 4,
+      "rotations": 6,
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        }
+      ],
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 20
+        }
+      ],
+      "cities": [{}]
+    },
     "6": 4,
     "12": 4,
     "13": 4,
@@ -1756,7 +1969,6 @@
     },
     "GM212|a": {
       "color": "offboard",
-      "broken": true,
       "noID": true,
       "group": "GM212",
       "mask": false,
@@ -1791,7 +2003,6 @@
     },
     "GM212|b": {
       "color": "offboard",
-      "broken": true,
       "noID": true,
       "group": "GM212",
       "mask": false,
@@ -1804,9 +2015,101 @@
     },
     "GM213|a": {
       "color": "offboard",
-      "broken": true,
+      "noID": true,
       "group": "GM213",
       "mask": false,
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 30
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 60,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM213|b": {
+      "color": "offboard",
+      "noID": true,
+      "group": "GM213",
+      "mask": false,
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
+    },
+    "GM214|a": {
+      "color": "offboard",
+      "noID": true,
+      "group": "GM214",
+      "mask": false,
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 30
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 60,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        },
+        {
+          "type": "offboard",
+          "side": 6
+        }
+      ]
+    },
+    "GM214|b": {
+      "color": "offboard",
+      "noID": true,
+      "group": "GM214",
+      "mask": false,
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
+    },
+    "GM215|a": {
+      "color": "offboard",
+      "group": "GM215",
+      "mask": false,
+      "noID": true,
       "offBoardRevenue": {
         "revenues": [
           {
@@ -1832,10 +2135,97 @@
         }
       ]
     },
-    "GM213|b": {
+    "GM215|b": {
       "color": "offboard",
       "broken": true,
-      "group": "GM213",
+      "group": "GM215",
+      "noID": true,
+      "mask": false,
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
+    },
+    "GM216|a": {
+      "color": "offboard",
+      "group": "GM216",
+      "mask": false,
+      "noID": true,
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 20
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 50,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
+    },
+    "GM216|b": {
+      "color": "offboard",
+      "broken": true,
+      "group": "GM216",
+      "mask": false,
+      "noID": true,
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
+    },
+    "GM217|a": {
+      "color": "offboard",
+      "group": "GM217",
+      "mask": false,
+      "noID": true,
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": 20
+          },
+          {
+            "color": "brown",
+            "cost": 30,
+            "phase": 5
+          },
+          {
+            "color": "gray",
+            "cost": 50,
+            "phase": "D"
+          }
+        ]
+      },
+      "track": [
+        {
+          "type": "offboard",
+          "side": 5
+        }
+      ]
+    },
+    "GM217|b": {
+      "color": "offboard",
+      "broken": true,
+      "group": "GM217",
+      "noID": true,
       "mask": false,
       "track": [
         {
