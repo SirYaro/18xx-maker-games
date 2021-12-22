@@ -1845,39 +1845,6 @@
         }
       ]
     },
-    "GM208": {
-      "color": "offboard",
-      "noID": true,
-      "quantity": 4,
-      "offBoardRevenue": {
-        "revenues": [
-          {
-            "color": "yellow",
-            "cost": 20
-          },
-          {
-            "color": "brown",
-            "cost": 30,
-            "phase": 5
-          },
-          {
-            "color": "gray",
-            "cost": 50,
-            "phase": "D"
-          }
-        ]
-      },
-      "track": [
-        {
-          "type": "offboard",
-          "side": 5
-        },
-        {
-          "type": "offboard",
-          "side": 6
-        }
-      ]
-    },
     "GM209": {
       "color": "offboard",
       "noID": true,
